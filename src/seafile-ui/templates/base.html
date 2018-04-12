@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block head %}
+    <link rel="stylesheet" href="style.css" />
+    <title>{% block title %}{% endblock %} - My Webpage</title>
+    {% endblock %}
+</head>
+<body>
+    <div id="content" class="container-fluid">{% block content %}{% endblock %}</div>
+
+    <script src="/build/bundle.js"></script>
+</body>
+</html>

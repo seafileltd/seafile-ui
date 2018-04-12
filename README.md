@@ -22,3 +22,7 @@ Build the package
 ```
 npm build
 ```
+
+## Directory structure
+
+`src/seafile-ui`: seafile-ui Python module. It is needed for using `jinja2` to find HTML templates.

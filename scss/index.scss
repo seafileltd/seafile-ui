@@ -1,0 +1,9 @@
+@import "_variables.scss";
+@import "~bootstrap/scss/bootstrap.scss";
+
+@import "_example.scss";
+
+h2 {
+  margin-top: 10px;
+  border-bottom: 1px solid #aaa;
+}

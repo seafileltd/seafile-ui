@@ -4,3 +4,4 @@ webpack-stats.*.json
 build/
 node_modules
 *~
+*.pyc
