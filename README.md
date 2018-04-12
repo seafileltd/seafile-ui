@@ -9,6 +9,13 @@ Initialization
 
 ```
 npm install
+sudo pip install jinja2
+```
+
+Build html pages
+
+```
+python gen-html.py
 ```
 
 Run dev server
@@ -17,11 +24,8 @@ Run dev server
 npm start
 ```
 
-Build the package
+Visit `127.0.0.1:3000`.
 
-```
-npm build
-```
 
 ## Directory structure
 
