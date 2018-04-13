@@ -1,7 +1,12 @@
 @import "_variables.scss";
 @import "~bootstrap/scss/bootstrap.scss";
 
+@import "_functions.scss";
 @import "_example.scss";
+
+@import "_button.scss";
+
+@import 'fonts/feather';
 
 h2 {
   margin-top: 10px;

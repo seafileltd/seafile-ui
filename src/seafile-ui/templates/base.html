@@ -1,14 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    {% block head %}
-    <link rel="stylesheet" href="style.css" />
-    <title>{% block title %}{% endblock %} - My Webpage</title>
-    {% endblock %}
+  {% block head %}
+  <link rel="stylesheet" href="style.css" />
+  <title>{% block title %}{% endblock %} - Seafile UI</title>
+  {% endblock %}
+  <style>
+  @font-face {
+  	font-family: "feather";
+  	src: url('fonts/feather/feather-webfont.eot?t=1501841394106'); /* IE9*/
+  	src: url('fonts/feather/feather-webfont.eot?t=1501841394106#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  	url('fonts/feather/feather-webfont.woff?t=1501841394106') format('woff'), /* chrome, firefox */
+  	url('fonts/feather/feather-webfont.ttf?t=1501841394106') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  	url('fonts/feather/feather-webfont.svg?t=1501841394106#feather') format('svg'); /* iOS 4.1- */
+  }
+  </style>
 </head>
 <body>
-    <div id="content" class="container-fluid">{% block content %}{% endblock %}</div>
 
-    <script src="/build/bundle.js"></script>
+  <div class="ui-main container-fluid">
+    <div class="row">
+      <div class="ui-nav col-2">
+        <ul class="nav flex-sm-column">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="button.html" class="nav-link">button</a></li>
+        </ul>
+      </div>
+      <div id="content" class="ui-content col-10">{% block content %}{% endblock %}</div>
+    </div>
+  </div>
+
+  <script src="/build/bundle.js"></script>
 </body>
 </html>

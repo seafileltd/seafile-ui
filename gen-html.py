@@ -26,3 +26,4 @@ def write_template(filename):
 if __name__ == "__main__":
     write_template("index.html")
     write_template("button.html")
+    os.system("cp -r src/assets/fonts build")
