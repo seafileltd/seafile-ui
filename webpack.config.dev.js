@@ -14,13 +14,13 @@ module.exports = {
   },
 
   output: {
-    path: path.resolve('./build/'),
+    path: path.resolve('./dist/'),
     // filename: "[name]-[hash].js",
     // sourceMapFilename: '[name]-[hash].map'
-    filename: "bundle.js",
-    sourceMapFilename: 'bundle.map',
+    filename: "seafile-ui.js",
+    sourceMapFilename: 'seafile-ui.map',
     // tell WebpackDevServer to serve bundle.js from http://localhost:3000/build/bundle.js
-    publicPath: 'http://localhost:3000/build/',
+    publicPath: 'http://localhost:3000/dist/',
   },
 
   devtool: '#source-map',

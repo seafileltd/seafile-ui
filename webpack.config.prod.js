@@ -2,6 +2,8 @@ var path = require("path")
 var webpack = require('webpack')
 var BundleTracker = require('webpack-bundle-tracker')
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const OptimizeCSSAssetsPlugin = require("optimize-css-assets-webpack-plugin");
+const UglifyJsPlugin = require("uglifyjs-webpack-plugin");
 
 module.exports = {
   context: __dirname,
@@ -11,19 +13,30 @@ module.exports = {
   ],
 
   output: {
-    path: path.resolve('./build/'),
-    filename: "bundle.js",
-    sourceMapFilename: 'bundle.map'
+    path: path.resolve('./dist/'),
+    filename: "seafile-ui.js",
+    sourceMapFilename: 'seafile-ui.map'
   },
 
   devtool: '#source-map',
+
+  optimization: {
+    minimizer: [
+      new UglifyJsPlugin({
+        cache: true,
+        parallel: true,
+        sourceMap: true // set to true if you want JS source maps
+      }),
+      new OptimizeCSSAssetsPlugin({})
+    ]
+  },
 
   plugins: [
     new BundleTracker({filename: './webpack-stats.prod.json'}),
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
-      filename: "[name].css",
+      filename: "seafile-ui.css",
       chunkFilename: "[id].css"
     }),
   ], // add all common plugins here
@@ -51,7 +64,7 @@ module.exports = {
       {
         test: /\.scss$/,
         use: [
-        'style-loader',
+        MiniCssExtractPlugin.loader,
         {
           loader: "css-loader",
           options: {

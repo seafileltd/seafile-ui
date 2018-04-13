@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "rm -rf ./build && mkdir build && python gen-html.py && webpack --config webpack.config.prod.js --progress --colors",
+    "build": "rm -rf ./dist && mkdir dist && python gen-html.py && webpack --config webpack.config.prod.js --progress --colors",
     "start": "node WebpackDevServer.js"
   },
   "author": "daniel.pan@seafile.com",
@@ -18,8 +18,10 @@
     "bootstrap": "^4.1.0",
     "css-loader": "^0.28.11",
     "node-sass": "^4.8.3",
+    "optimize-css-assets-webpack-plugin": "^4.0.0",
     "sass-loader": "^6.0.7",
     "style-loader": "^0.20.3",
+    "uglifyjs-webpack-plugin": "^1.2.4",
     "webpack": "^4.5.0",
     "webpack-bundle-tracker": "^0.3.0",
     "webpack-cli": "^2.0.14",

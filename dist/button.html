@@ -1,7 +1,33 @@
-{% extends "base.html" %}
-{% block title %}Button{% endblock %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <link rel="stylesheet" href="seafile-ui.css" />
+  <title>Button - Seafile UI</title>
+  
+  <style>
+  @font-face {
+  	font-family: "feather";
+  	src: url('fonts/feather/feather-webfont.eot?t=1501841394106'); /* IE9*/
+  	src: url('fonts/feather/feather-webfont.eot?t=1501841394106#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  	url('fonts/feather/feather-webfont.woff?t=1501841394106') format('woff'), /* chrome, firefox */
+  	url('fonts/feather/feather-webfont.ttf?t=1501841394106') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  	url('fonts/feather/feather-webfont.svg?t=1501841394106#feather') format('svg'); /* iOS 4.1- */
+  }
+  </style>
+</head>
+<body>
 
-{% block content %}
+  <div class="ui-main container-fluid">
+    <div class="row">
+      <div class="ui-nav col-2">
+        <ul class="nav flex-sm-column">
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="button.html" class="nav-link">button</a></li>
+          <li class="nav-item"><a href="form.html" class="nav-link">form</a></li>
+        </ul>
+      </div>
+      <div id="content" class="ui-content col-10">
 <h2>Buttons</h2>
 <p>Use Bootstrap’s custom button styles for actions in forms, dialogs, and more. Includes support for a handful of contextual variations, sizes, states, and more.</p>
 <h3 id="button-tag">Button tag</h3>
@@ -340,4 +366,10 @@
   </pre>
 </div>
 
-{% endblock %}
+</div>
+    </div>
+  </div>
+
+  <script src="/build/bundle.js"></script>
+</body>
+</html>

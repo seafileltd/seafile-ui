@@ -18,7 +18,7 @@ env = Environment(
 def write_template(filename):
     tmpl = env.get_template(filename)
     result = tmpl.render()
-    outfile = codecs.open("build/" + filename, 'w', encoding='utf-8')
+    outfile = codecs.open("dist/" + filename, 'w', encoding='utf-8')
     outfile.write(result)
     outfile.close()
 
@@ -26,4 +26,5 @@ def write_template(filename):
 if __name__ == "__main__":
     write_template("index.html")
     write_template("button.html")
-    os.system("cp -r src/assets/fonts build")
+    write_template("form.html")
+    os.system("cp -r src/assets/fonts dist")
