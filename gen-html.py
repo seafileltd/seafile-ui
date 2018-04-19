@@ -27,4 +27,5 @@ if __name__ == "__main__":
     write_template("index.html")
     write_template("button.html")
     write_template("form.html")
-    os.system("cp -r src/assets/fonts dist")
+    os.system("cp -r src/assets/webfonts dist")
+    os.system("cp -r src/assets/css dist")
