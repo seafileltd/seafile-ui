@@ -20,7 +20,7 @@ module.exports = {
     filename: "seafile-ui.js",
     sourceMapFilename: 'seafile-ui.map',
     // tell WebpackDevServer to serve bundle.js from http://localhost:3000/build/bundle.js
-    publicPath: 'http://localhost:3000/dist/',
+    publicPath: 'http://localhost:3000/',
   },
 
   devtool: '#source-map',
