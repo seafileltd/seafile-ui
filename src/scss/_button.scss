@@ -7,7 +7,10 @@
 
 	i {
 		font-size: 1em;
-		width: 1em;
+		/* The width of some fonts (like fa-code) in fontawesome is larger than 1em
+			 width = 1.2em is needed to make the icon display at the middle of the button
+		*/
+		width: 1.2em;
 		height: 1em;
 		vertical-align: -2px;
 	}
