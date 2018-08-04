@@ -1,0 +1,25 @@
+
+#ignore src
+/src/
+
+#ignore .idea
+
+/.idea/
+
+/*.js
+
+/webpack-stats.dev.json
+
+/webpack-stats.prod.json
+
+/gen-html.py
+
+/node_modules
+
+/dist/css
+
+/dist/webfonts
+
+/dist/*.html
+/dist/seafile-ui.js
+
