@@ -10780,6 +10780,8 @@ Icon input
     border-color: #ccc;
     word-break: break-all;
     line-height: 1.5; }
+  .article table th {
+    font-weight: bold; }
   .article hr.active {
     border-top: 1px solid #eb8205; }
   .article .code-container {
