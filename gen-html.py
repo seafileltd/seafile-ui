@@ -28,5 +28,6 @@ if __name__ == "__main__":
     write_template("button.html")
     write_template("form.html")
     write_template("wikis.html")
+    write_template("article.html")
     os.system("cp -r src/assets/webfonts dist")
     os.system("cp -r src/assets/css dist")

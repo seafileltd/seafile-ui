@@ -48,7 +48,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -ms-overflow-style: scrollbar;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); }
+  -webkit-tap-highlight-color: transparent; }
 
 @-ms-viewport {
   width: device-width; }
@@ -10686,7 +10686,6 @@ Icon input
     margin-top: 0; }
   .article p {
     margin: 0.8em 0;
-    white-space: pre-wrap;
     word-wrap: break-word;
     word-break: break-all; }
   .article ul {
@@ -10725,6 +10724,13 @@ Icon input
     background-color: transparent;
     user-select: text;
     line-height: 1em; }
+  .article code {
+    padding: 0.2em 0.4em;
+    margin: 0;
+    font-size: 85%;
+    background-color: rgba(27, 31, 35, 0.05);
+    border-radius: 3px;
+    border: none; }
   .article .code p {
     white-space: pre-wrap;
     padding: 0;
