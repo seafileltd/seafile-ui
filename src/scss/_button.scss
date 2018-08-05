@@ -17,7 +17,6 @@
 
 .btn-secondary {
 	@include button-variant(#fff, $input-border-color, #f6f6f6);
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.05);
 }
 
 .btn-pill {
