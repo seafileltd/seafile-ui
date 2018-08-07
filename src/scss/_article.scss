@@ -89,7 +89,7 @@
     line-height: 1em;
   }
 
-  code {
+  p code {
     padding: 0.2em 0.4em;
     margin: 0;
     font-size: 85%;
@@ -145,7 +145,7 @@
     margin: 10px 0;
   }
 
-  tr:nth-child(2n) {
+  tr:nth-child(2n+1) {
     background-color: #F8F8F8;
   }
 
@@ -173,6 +173,7 @@
 
   table th {
     font-weight: bold;
+    background: #f5f7fa;
   }
 
   hr.active {

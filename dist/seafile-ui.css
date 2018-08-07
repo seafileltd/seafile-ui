@@ -10723,7 +10723,7 @@ Icon input
     background-color: transparent;
     user-select: text;
     line-height: 1em; }
-  .article code {
+  .article p code {
     padding: 0.2em 0.4em;
     margin: 0;
     font-size: 85%;
@@ -10763,7 +10763,7 @@ Icon input
     border-left: 1px solid #ddd;
     border-top: 1px solid #ddd;
     margin: 10px 0; }
-  .article tr:nth-child(2n) {
+  .article tr:nth-child(2n+1) {
     background-color: #F8F8F8; }
   .article th, .article td {
     padding: 6px 13px; }
@@ -10780,7 +10780,8 @@ Icon input
     word-break: break-all;
     line-height: 1.5; }
   .article table th {
-    font-weight: bold; }
+    font-weight: bold;
+    background: #f5f7fa; }
   .article hr.active {
     border-top: 1px solid #eb8205; }
   .article .code-container {
