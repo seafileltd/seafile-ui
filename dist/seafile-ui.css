@@ -10685,8 +10685,7 @@ Icon input
     margin-top: 0; }
   .article p {
     margin: 0.8em 0;
-    word-wrap: break-word;
-    word-break: break-all; }
+    word-wrap: break-word; }
   .article ul {
     list-style-type: disc; }
   .article ul, .article ol {
