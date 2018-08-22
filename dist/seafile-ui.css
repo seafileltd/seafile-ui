@@ -9908,9 +9908,6 @@ Loader
 textarea[cols] {
   height: auto; }
 
-.form-group {
-  display: block; }
-
 .form-label {
   display: block;
   margin-bottom: .375rem;
