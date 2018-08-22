@@ -9113,7 +9113,6 @@ button.bg-lime:focus {
 
 .table th, .text-wrap table th {
   color: #9aa0ac;
-  text-transform: uppercase;
   font-size: 0.875rem;
   font-weight: 400; }
 
@@ -10776,8 +10775,7 @@ Icon input
     word-break: break-all;
     line-height: 1.5; }
   .article table th {
-    font-weight: bold;
-    background: #f5f7fa; }
+    font-weight: bold; }
   .article hr.active {
     border-top: 1px solid #eb8205; }
   .article .code-container {
