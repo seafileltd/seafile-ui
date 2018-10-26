@@ -29,5 +29,6 @@ if __name__ == "__main__":
     write_template("form.html")
     write_template("wikis.html")
     write_template("article.html")
+    write_template("loading.html")
     os.system("cp -r src/assets/webfonts dist")
     os.system("cp -r src/assets/css dist")
