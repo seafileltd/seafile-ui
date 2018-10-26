@@ -12,10 +12,10 @@ npm install
 sudo pip install jinja2
 ```
 
-Build html pages
+Build css/html
 
 ```
-python gen-html.py
+npm build
 ```
 
 Run dev server
