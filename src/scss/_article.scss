@@ -156,6 +156,10 @@
     margin: 0;
   }
 
+  table tr {
+    height: 100%;
+  }
+
   table tr, table th {
     display: flex;
   }
