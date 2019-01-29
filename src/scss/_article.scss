@@ -147,6 +147,10 @@
     background-color: #F8F8F8;
   }
 
+  tr:first-child {
+    font-weight: bold;
+  }
+
   th, td {
     padding:6px 13px;
   }
