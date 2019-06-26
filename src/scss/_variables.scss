@@ -156,7 +156,7 @@ $input-disabled-bg: $gray-100;
 
 $input-focus-border-color: #1991eb;
 $custom-select-focus-border-color: #1991eb;
-$input-focus-box-shadow: #467FCF;
+$input-focus-box-shadow: 0 0 0 $input-btn-focus-width rgba(70, 127, 207, 0.25) !default;
 
 // Borders
 $border-width: 1px;
