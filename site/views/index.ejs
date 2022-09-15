@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('./templates/header.html') %>
+<body>
+  <div class="ui-main container-fluid">
+    <div class="row">
+      <div class="ui-nav col-2">
+        <%- include('./templates/nav.html') %>
+      </div>
+      <div id="content" class="ui-content col-10">
+        <% if (title === 'Seafile UI') { %>
+          <div>Home</div>
+        <% } %>
+        <% if (title === 'home') { %>
+          <div>Home</div>
+        <% } %>
+        <% if (title === 'button') { %>
+          <%- include('button.html') %>
+        <% } %>
+        <% if (title === 'form') { %>
+          <%- include('form.html') %>
+        <% } %>
+        <% if (title === 'wikis') { %>
+          <%- include('wikis.html') %>
+        <% } %>
+        <% if (title === 'article') { %>
+          <%- include('article.html') %>
+        <% } %>
+        <% if (title === 'loading') { %>
+          <%- include('loading.html') %>
+        <% } %>
+      </div>
+    </div>
+  </div>
+  <script src="/dist/seafile-ui.js"></script>
+</body>
+</html>
