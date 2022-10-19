@@ -8,7 +8,13 @@
 }
 
 .dropdown-item {
-	color: $text-muted-dark;
+  color: $text-muted-dark;
+
+  &:hover,
+  &:focus {
+    color: #fff;
+    background-color: #20a0ff;
+  }
 }
 
 .dropdown-menu-arrow {
