@@ -15,10 +15,10 @@ module.exports = {
   output: {
     path: path.resolve('./dist/'),
     filename: "seafile-ui.js",
-    sourceMapFilename: 'seafile-ui.map'
+    // sourceMapFilename: 'seafile-ui.map'
   },
 
-  devtool: '#source-map',
+  devtool: false,
 
   optimization: {
     minimizer: [
