@@ -104,8 +104,6 @@ module.exports = {
         // Disabled on WSL (Windows Subsystem for Linux) due to an issue with Terser
         // https://github.com/webpack-contrib/terser-webpack-plugin/issues/21
         parallel: false,
-        cache: true,
-        sourceMap: false,
       }),
     ],
   },
