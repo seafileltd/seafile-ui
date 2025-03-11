@@ -2,17 +2,17 @@
 <html lang="en">
 <%- include('./templates/header.html') %>
 <body>
-  <div class="ui-main container-fluid">
-    <div class="row">
+  <div class="ui-main container-fluid h-100">
+    <div class="row h-100">
       <div class="ui-nav col-2">
         <%- include('./templates/nav.html') %>
       </div>
-      <div id="content" class="ui-content col-10">
+      <div id="content" class="ui-content col-10 h-100">
         <% if (title === 'Seafile UI') { %>
-          <div>Home</div>
+          <%- include('index.html') %>
         <% } %>
         <% if (title === 'home') { %>
-          <div>Home</div>
+          <%- include('index.html') %>
         <% } %>
         <% if (title === 'button') { %>
           <%- include('button.html') %>
@@ -28,6 +28,141 @@
         <% } %>
         <% if (title === 'loading') { %>
           <%- include('loading.html') %>
+        <% } %>
+        <% if (title === 'table') { %>
+          <%- include('table.html') %>
+        <% } %>
+        <% if (title === 'alert') { %>
+          <%- include('alert.html') %>
+        <% } %>
+        <% if (title === 'chips') { %>
+          <%- include('chips.html') %>
+        <% } %>
+        <% if (title === 'icon') { %>
+          <%- include('icon.html') %>
+        <% } %>
+        <% if (title === 'pagination') { %>
+          <%- include('pagination.html') %>
+        <% } %>
+        <% if (title === 'article') { %>
+          <%- include('article.html') %>
+        <% } %>
+        <% if (title === 'image') { %>
+          <%- include('image.html') %>
+        <% } %>
+        <% if (title === 'popover') { %>
+          <%- include('popover.html') %>
+        <% } %>
+        <% if (title === 'timeline') { %>
+          <%- include('timeline.html') %>
+        <% } %>
+        <% if (title === 'aside') { %>
+          <%- include('aside.html') %>
+        <% } %>
+        <% if (title === 'product') { %>
+          <%- include('product.html') %>
+        <% } %>
+        <% if (title === 'type') { %>
+          <%- include('type.html') %>
+        <% } %>
+        <% if (title === 'avatar') { %>
+          <%- include('avatar.html') %>
+        <% } %>
+        <% if (title === 'core') { %>
+          <%- include('core.html') %>
+        <% } %>
+        <% if (title === 'layout') { %>
+          <%- include('layout.html') %>
+        <% } %>
+        <% if (title === 'progress') { %>
+          <%- include('progress.html') %>
+        <% } %>
+        <% if (title === 'utilities') { %>
+          <%- include('utilities.html') %>
+        <% } %>
+        <% if (title === 'badge') { %>
+          <%- include('badge.html') %>
+        <% } %>
+        <% if (title === 'dropdown') { %>
+          <%- include('dropdown.html') %>
+        <% } %>
+        <% if (title === 'link') { %>
+          <%- include('link.html') %>
+        <% } %>
+        <% if (title === 'social') { %>
+          <%- include('social.html') %>
+        <% } %>
+        <% if (title === 'variables') { %>
+          <%- include('variables.html') %>
+        <% } %>
+        <% if (title === 'breadcrumb') { %>
+          <%- include('breadcrumb.html') %>
+        <% } %>
+        <% if (title === 'example') { %>
+          <%- include('example.html') %>
+        <% } %>
+        <% if (title === 'list-group') { %>
+          <%- include('list-group.html') %>
+        <% } %>
+        <% if (title === 'sparkline') { %>
+          <%- include('sparkline.html') %>
+        <% } %>
+        <% if (title === 'forms') { %>
+          <%- include('forms.html') %>
+        <% } %>
+        <% if (title === 'button') { %>
+          <%- include('button.html') %>
+        <% } %>
+        <% if (title === 'footer') { %>
+          <%- include('footer.html') %>
+        <% } %>
+        <% if (title === 'list') { %>
+          <%- include('list.html') %>
+        <% } %>
+        <% if (title === 'stamp') { %>
+          <%- include('stamp.html') %>
+        <% } %>
+        <% if (title === 'index') { %>
+          <%- include('index.html') %>
+        <% } %>
+        <% if (title === 'cards') { %>
+          <%- include('cards.html') %>
+        <% } %>
+        <% if (title === 'form') { %>
+          <%- include('form.html') %>
+        <% } %>
+        <% if (title === 'loading') { %>
+          <%- include('loading.html') %>
+        <% } %>
+        <% if (title === 'statuses') { %>
+          <%- include('statuses.html') %>
+        <% } %>
+        <% if (title === 'article') { %>
+          <%- include('article.html') %>
+        <% } %>
+        <% if (title === 'carousel') { %>
+          <%- include('carousel.html') %>
+        <% } %>
+        <% if (title === 'functions') { %>
+          <%- include('functions.html') %>
+        <% } %>
+        <% if (title === 'maps') { %>
+          <%- include('maps.html') %>
+        <% } %>
+        <% if (title === 'syntax') { %>
+          <%- include('syntax.html') %>
+        <% } %>
+        <% if (title === 'chat') { %>
+          <%- include('chat.html') %>
+        <% } %>
+        <% if (title === 'header') { %>
+          <%- include('header.html') %>
+        <% } %>
+        <% if (title === 'nav') { %>
+          <%- include('nav.html') %>
+        <% } %>
+        <% if (title === 'tag') { %>
+          <%- include('tag.html') %>
         <% } %>
       </div>
     </div>

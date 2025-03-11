@@ -1,0 +1,7 @@
+.ui-main.container-fluid {
+  margin: 20px auto;
+}
+
+.ui-main.container-fluid>.row #content {
+  overflow-y: auto;
+}

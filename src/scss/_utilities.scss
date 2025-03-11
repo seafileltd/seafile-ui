@@ -1,5 +1,5 @@
 @each $color, $value in $colors {
-	@include bg-variant(".bg-#{$color}", $value);
+	.bg-#{$color} { background-color: $value !important; }
 
 	.text-#{$color} {
 		color: $value !important;
@@ -24,8 +24,18 @@
 	}
 }
 
-.o-auto   { overflow: auto !important; }
-.o-hidden { overflow: hidden !important; }
+.o-auto {
+	overflow: auto !important;
+}
 
-.shadow	      { box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important; }
-.shadow-none  { box-shadow: none !important; }
+.o-hidden {
+	overflow: hidden !important;
+}
+
+.shadow {
+	box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05) !important;
+}
+
+.shadow-none {
+	box-shadow: none !important;
+}

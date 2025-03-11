@@ -4,14 +4,13 @@
   "description": "Seafile UI components",
   "main": "/dist/seafile-ui.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && rm -rf ./dist && mkdir dist && webpack --config webpack.config.prod.js --progress",
     "start": "nodemon ./site/bin/www.js"
   },
   "author": "daniel.pan@seafile.com",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.1.3"
+    "bootstrap": "5.2.3"
   },
   "devDependencies": {
     "@babel/cli": "7.22.10",

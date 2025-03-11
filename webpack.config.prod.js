@@ -1,6 +1,7 @@
 const path = require('path');
 const TerserPlugin = require('terser-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 
 module.exports = {
   context: __dirname,
@@ -8,7 +9,6 @@ module.exports = {
   entry: [
     path.resolve(__dirname, 'src/index'),
   ],
-
   output: {
     path: path.resolve('./dist/'),
     filename: "seafile-ui.js",
@@ -105,10 +105,12 @@ module.exports = {
         // https://github.com/webpack-contrib/terser-webpack-plugin/issues/21
         parallel: false,
       }),
+      new CssMinimizerPlugin(), // Add this plugin to minimize CSS
     ],
   },
   plugins: [
     new MiniCssExtractPlugin({
+      // filename: `seafile-ui-${require("./package.json").version}.css`,
       filename: "seafile-ui.css",
       chunkFilename: "[id].css",
       ignoreOrder: false,
