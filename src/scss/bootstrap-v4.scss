@@ -767,6 +767,24 @@ a {
   margin-bottom: 1rem;
 }
 
+.form-check-input {
+  appearance: auto;
+}
+
+.form-check-input:focus {
+  box-shadow: none;
+  border-color: rgba(0, 0, 0, .25);
+}
+
+.form-check-input:checked {
+  background-color: initial;
+  border-color: initial;
+}
+
+.form-select:focus {
+  box-shadow: 0 0 0 2px rgba(70, 127, 207, 0.25);
+}
+
 // button
 .btn-success,
 .btn-info,
