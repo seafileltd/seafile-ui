@@ -1,12 +1,12 @@
 .highlight {
 	.hll { background-color: #ffc; }
-	.c { color: #999; }
+	.c { color: #666; }
 	.k { color: #069; }
 	.o { color: #555; }
-	.cm { color: #999; }
+	.cm { color: #666; }
 	.cp { color: #099; }
-	.c1 { color: #999; }
-	.cs { color: #999; }
+	.c1 { color: #666; }
+	.cs { color: #666; }
 	.gd { background-color: #fcc; border: 1px solid #c00; }
 	.ge { font-style: italic; }
 	.gr { color: #f00; }
@@ -29,7 +29,7 @@
 	.nc { color: #0a8; }
 	.no { color: #360; }
 	.nd { color: #99f; }
-	.ni { color: #999; }
+	.ni { color: #666; }
 	.ne { color: #c00; }
 	.nf { color: #c0f; }
 	.nl { color: #99f; }
@@ -61,7 +61,7 @@
 
 	.css .o,
 	.css .o + .nt,
-	.css .nt + .nt { color: #999; }
+	.css .nt + .nt { color: #666; }
 
 	.language-bash::before,
 	.language-sh::before {
