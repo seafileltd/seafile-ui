@@ -11,9 +11,9 @@ $enable-print-styles: true;
 $font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
 $font-family-monospace: Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
-$font-size-base: .9375rem;
-$font-size-lg: 1.125rem;
-$font-size-sm: .875rem;
+$font-size-base: .875rem; //14px
+$font-size-lg: 1rem; //16px
+$font-size-sm: .8125rem; //13px
 
 $line-height-base: 1.5;
 
@@ -62,15 +62,18 @@ $lime: #7bd235;
 $green: #5eba00;
 $teal: #2bcbba;
 $cyan: #17a2b8;
-
-
 $text-muted: #9aa0ac;
 $text-muted-dark: #6e7687;
-
 $white: #fff;
 
+// 666666 is used in most gray scenes, such as tip (contrast reaches 4.5)
+$sf-grey-text: #666666;
+
+// 868E96 is used in search box/input box/selection box placeholder (contrast reaches 3)
+$sf-grey-text-placeholder: #868E96;
+
 $primary: $sf-orange2;
-$secondary: $gray-600;
+$secondary: $sf-grey-text;
 $success: $green;
 $info: $azure;
 $warning: $yellow;
@@ -160,7 +163,6 @@ $input-focus-box-shadow: 0 0 0 $input-btn-focus-width rgba(70, 127, 207, 0.25) !
 
 // Borders
 $border-width: 1px;
-//$border-color: #dee3eb;
 $border-color: rgba(0, 40, 100, .12);
 $border-color-dark: rgba(0, 40, 100, .24);
 
@@ -176,7 +178,7 @@ $input-box-shadow: inset 0 1px 1px rgba(#000, .075);
 $input-group-addon-border-color: $input-border-color;
 $input-group-addon-bg: #fbfbfc;
 
-$input-placeholder-color: $gray-500;
+$input-placeholder-color: $sf-grey-text-placeholder;
 
 // Grid
 $grid-columns: 12;
@@ -272,7 +274,7 @@ $table-hover-bg: rgba(0, 0, 0, .04);
 $custom-select-padding-y: .5rem;
 $custom-select-padding-x: .75rem;
 
-$custom-select-indicator-color: #999;
+$custom-select-indicator-color: #666;
 $custom-select-indicator: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 10 5'%3E%3Cpath fill='#{$custom-select-indicator-color}' d='M0 0L10 0L5 5L0 0'/%3E%3C/svg%3E");
 
 // Aside
