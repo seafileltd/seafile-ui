@@ -32,13 +32,13 @@
 		padding: 1rem 0;
 
 		&:hover:not(.disabled) {
-			border-color: $orange;
-			color: $orange;
+			border-color: $sf-orange-text;
+			color: $sf-orange-text;
 		}
 
 		&.active {
-			border-color: $orange;
-			color: $orange;
+			border-color: $sf-orange-text;
+			color: $sf-orange-text;
 			background: transparent;
 		}
 
