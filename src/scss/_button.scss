@@ -16,7 +16,7 @@
 }
 
 .btn-secondary {
-	@include button-variant(#fff, $input-border-color, #f6f6f6);
+	@include button-variant(#fff, $input-border-color, #f5f5f5);
 }
 
 .btn-pill {
