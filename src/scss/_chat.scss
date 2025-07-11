@@ -73,7 +73,7 @@
 	}
 
 	.chat-message {
-		background-color: #f3f3f3;
+		background-color: #f0f0f0;
 		color: $body-color;
 		margin-left: .5rem;
 		margin-right: 2.5rem;
@@ -82,7 +82,7 @@
 			right: auto;
 			left: -5px;
 			border-left-width: 0;
-			border-right: 5px solid #f3f3f3;
+			border-right: 5px solid #f0f0f0;
 		}
 	}
 }
