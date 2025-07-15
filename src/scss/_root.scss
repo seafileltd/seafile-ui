@@ -28,9 +28,6 @@
 
   --#{$prefix}border-color: #{$border-color};
   --#{$prefix}border-secondary-color: #{$border-secondary-color};
-  --#{$prefix}border-tertiary-color: #{$border-tertiary-color};
-  --#{$prefix}border-quartus-color: #{$border-quartus-color};
-  --#{$prefix}border-fifth-color: #{$border-fifth-color};
 
   --#{$prefix}secondary-color: #{$secondary-color};
   --#{$prefix}tertiary-color: #{$tertiary-color};
@@ -59,7 +56,6 @@
   --#{$prefix}tr-active-bg: #{$tr-active-bg};
   --#{$prefix}tr-active-secondary-bg: #{$tr-active-secondary-bg};
   --#{$prefix}tr-hover-bg: #{$tr-hover-bg};
-  --#{$prefix}td-border-color: #{$td-border-color};
 
   --#{$prefix}icon-rgb: #{to-rgb($icon-rgb)};
   --#{$prefix}icon-hover-rgb: #{to-rgb($icon-hover-rgb)};
@@ -94,9 +90,6 @@
 
     --#{$prefix}border-color: #{$border-color-dark};
     --#{$prefix}border-secondary-color: #{$border-secondary-color-dark};
-    --#{$prefix}border-tertiary-color: #{$border-tertiary-color-dark};
-    --#{$prefix}border-quartus-color: #{$border-quartus-color-dark};
-    --#{$prefix}border-fifth-color: #{$border-fifth-color-dark};
 
     --#{$prefix}secondary-color: #{$secondary-color-dark};
     --#{$prefix}tertiary-color: #{$tertiary-color-dark};
@@ -125,7 +118,6 @@
     --#{$prefix}tr-active-bg: #{$tr-active-bg-dark};
     --#{$prefix}tr-active-secondary-bg: #{$tr-active-secondary-bg-dark};
     --#{$prefix}tr-hover-bg: #{$tr-hover-bg-dark};
-    --#{$prefix}td-border-color: #{$td-border-color-dark};
 
     --#{$prefix}icon-rgb: #{to-rgb($icon-rgb-dark)};
     --#{$prefix}icon-hover-rgb: #{to-rgb($icon-hover-rgb-dark)};

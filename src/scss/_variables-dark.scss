@@ -1,6 +1,5 @@
 $body-bg-dark: $gray-900 !default;
 $body-color-dark: $gray-300 !default;
-$border-color-dark: rgba($white, .15) !default;
 
 $body-color-dark: #fff;
 $body-color-rgb-dark: 222, 226, 230;
@@ -9,6 +8,7 @@ $body-secondary-bg-dark: #343a40;
 $body-tertiary-bg-dark: #212529;
 $body-quartus-bg-dark: #212529;
 $body-bg-rgb-dark: 33, 37, 41;
+
 $emphasis-color-dark: #fff;
 $emphasis-color-rgb-dark: 255, 255, 255;
 $secondary-color-dark: #dbdbdb;
@@ -20,6 +20,7 @@ $tertiary-color-rgb-dark: 222, 226, 230;
 $tertiary-bg-dark: #2b3035;
 $tertiary-bg-rgb-dark: 43, 48, 53;
 $quartus-color-dark: #dbdbdb;
+
 $primary-text-emphasis-dark: #6ea8fe;
 $secondary-text-emphasis-dark: #a7acb1;
 $success-text-emphasis-dark: #75b798;
@@ -28,6 +29,7 @@ $warning-text-emphasis-dark: #ffda6a;
 $danger-text-emphasis-dark: #ea868f;
 $light-text-emphasis-dark: #f8f9fa;
 $dark-text-emphasis-dark: #dee2e6;
+
 $primary-bg-subtle-dark: #031633;
 $secondary-bg-subtle-dark: #161719;
 $success-bg-subtle-dark: #051b11;
@@ -36,6 +38,7 @@ $warning-bg-subtle-dark: #332701;
 $danger-bg-subtle-dark: #2c0b0e;
 $light-bg-subtle-dark: #343a40;
 $dark-bg-subtle-dark: #1a1d20;
+
 $primary-border-subtle-dark: #084298;
 $secondary-border-subtle-dark: #41464b;
 $success-border-subtle-dark: #0f5132;
@@ -44,6 +47,7 @@ $warning-border-subtle-dark: #997404;
 $danger-border-subtle-dark: #842029;
 $light-border-subtle-dark: #495057;
 $dark-border-subtle-dark: #343a40;
+
 $heading-color-dark: inherit;
 $link-color-dark: #6ea8fe;
 $link-hover-color-dark: #8bb9fe;
@@ -52,16 +56,15 @@ $link-hover-color-rgb-dark: 139, 185, 254;
 $code-color-dark: #e685b5;
 $highlight-color-dark: #dee2e6;
 $highlight-bg-dark: #664d03;
-$border-color-dark: #495057;
-$border-secondary-color-dark: #495057;
-$border-tertiary-color-dark: #495057;
-$border-quartus-color-dark: #495057;
-$border-fifth-color-dark: #495057;
-$border-color-translucent-dark: rgba(255,  255,  255,  0.15);
+
+$border-color-dark: rgba($white, .1);
+$border-secondary-color-dark: rgba($white,.15);
+
 $form-valid-color-dark: #75b798;
 $form-valid-border-color-dark: #75b798;
 $form-invalid-color-dark: #ea868f;
 $form-invalid-border-color-dark: #ea868f;
+
 $header-bg-dark: #212529;
 $header-secondary-bg-dark: #343a40;
 $header-tertiary-bg-dark: #2b3035;
@@ -80,7 +83,7 @@ $th-fifth-bg-dark: #343a40;
 $tr-hover-bg-dark: #343a40;
 $tr-active-bg-dark: #495057;
 $tr-active-secondary-bg-dark: #495057;
-$td-border-color-dark: #495057;
+$td-border-color-dark: rgba($white, .1);
 $icon-color-dark: #dbdbdb;
 $icon-secondary-color-dark: #dbdbdb;
 $icon-tertiary-color-dark: #dbdbdb;
