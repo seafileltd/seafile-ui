@@ -1,8 +1,10 @@
 @import "_variables.scss";
+@import "_variables-dark.scss";
 @import "~bootstrap/scss/bootstrap.scss";
 
 @import "functions";
-
+@import "color-mode";
+@import 'root';
 @import 'core';
 @import 'type';
 @import 'grid';
@@ -48,6 +50,7 @@
 @import 'carousel';
 @import 'article';
 @import 'loading';
+@import 'modal';
 
 
 @import 'forms/custom-range';

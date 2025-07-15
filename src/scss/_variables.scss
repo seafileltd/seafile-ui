@@ -6,6 +6,11 @@ $enable-transitions: true;
 $enable-hover-media-query: false;
 $enable-grid-classes: true;
 $enable-print-styles: true;
+$enable-dark-mode: true;
+$color-mode-type: data !default;
+
+$variable-prefix:             bs- !default;
+$prefix:                      $variable-prefix !default;
 
 //Fonts
 $font-family-base: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -128,6 +133,63 @@ $social-colors: (
 $body-bg: $white;
 $body-color: $gray-900;
 
+$body-secondary-bg: #f7f7f5;
+$body-tertiary-bg: #f5f5f5;
+$body-quartus-bg: #f4f4f4;
+$emphasis-color: #303133;
+$border-secondary-color: #e5e5e5;
+$border-tertiary-color: #e5e6e8;
+$border-quartus-color: #e9ecef;
+$border-fifth-color: #f1f1ef;
+$secondary-color: #444;
+$tertiary-color: #fff;
+$tertiary-color-rgb: 33, 37, 41;
+$tertiary-bg: #f8f9fa;
+$tertiary-bg-rgb: 248, 249, 250;
+$quartus-color: #555;
+
+$header-bg: #f8fafd;
+$header-secondary-bg: #f6f6f6;
+$header-tertiary-bg: #f2f2f2;
+$header-quartus-bg: #f0f0f0;
+
+$toolbar-bg: #fff;
+$toolbar-secondary-bg: #fcfcfc;
+$nav-hover-bg: #f0f0f0;
+$nav-active-bg: #f5f5f5;
+$wiki-nav-hover-bg: #efefef;
+$wiki-nav-active-bg: #ededea;
+
+$tr-hover-bg: #f8f8f8;
+$th-bg: #f9f9f9;
+$th-secondary-bg: #fafafa;
+$th-tertiary-bg: #f7f7f7;
+$th-quartus-bg: #ededed;
+$th-fifth-bg: #e3e3e3;
+$tr-active-bg: #f2f4f6;
+$tr-active-secondary-bg: #dbecfa;
+$tr-hover-bg: #f5f5f5;
+$td-border-color: #e8e8e8;
+
+$icon-rgb: rgba(0, 0, 0, 0.5);
+$icon-hover-rgb: rgba(0, 0, 0, 1);
+$icon-color: #444;
+$icon-secondary-color: #000;
+$icon-secondary-color: #666;
+$icon-tertiary-color: #999;
+$icon-hover-bg: #efefef;
+$icon-hover-secondary-bg: #dbdbdb;
+$icon-hover-color: #333;
+
+$button-color: #888;
+$button-bg: #f0f0f0;
+$button-hover-color: #333;
+$button-active-bg: #efefef;
+
+$dropdown-link-bg: #20a0ff;
+$dropdown-secondary-bg: #f2f2f2;
+$dropdown-tertiary-bg: #f5f5f5;
+
 // Code
 $code-font-size: 85%;
 $code-color: inherit;
@@ -162,7 +224,7 @@ $input-focus-box-shadow: 0 0 0 $input-btn-focus-width rgba(70, 127, 207, 0.25) !
 
 // Borders
 $border-width: 1px;
-$border-color: rgba(0, 40, 100, .12);
+$border-color: #eee;
 $border-color-dark: rgba(0, 40, 100, .24);
 
 // Inputs
@@ -199,7 +261,6 @@ $container-max-widths: (
 );
 
 // Header
-$header-bg: #0667d0;
 $header-color: #fff;
 $header-height: 4.5rem;
 
@@ -296,7 +357,9 @@ $popover-arrow-height: .5rem;
 // Badges
 $badge-font-weight: 600;
 
-
+// Modal
+$modal-content-color: var(--#{$prefix}body-color);
+$modal-content-bg: var(--#{$prefix}body-bg);
 
 // Icons flags
 $flag-icons: ('ad', 'ae', 'af', 'ag', 'ai', 'al', 'am', 'ao', 'aq', 'ar', 'as', 'at', 'au', 'aw', 'ax', 'az', 'ba', 'bb', 'bd', 'be', 'bf', 'bg', 'bh', 'bi', 'bj', 'bl', 'bm', 'bn', 'bo', 'bq', 'br', 'bs', 'bt', 'bv', 'bw', 'by', 'bz', 'ca', 'cc', 'cd', 'cf', 'cg', 'ch', 'ci', 'ck', 'cl', 'cm', 'cn', 'co', 'cr', 'cu', 'cv', 'cw', 'cx', 'cy', 'cz', 'de', 'dj', 'dk', 'dm', 'do', 'dz', 'ec', 'ee', 'eg', 'eh', 'er', 'es', 'et', 'eu', 'fi', 'fj', 'fk', 'fm', 'fo', 'fr', 'ga', 'gb-eng', 'gb-nir', 'gb-sct', 'gb-wls', 'gb', 'gd', 'ge', 'gf', 'gg', 'gh', 'gi', 'gl', 'gm', 'gn', 'gp', 'gq', 'gr', 'gs', 'gt', 'gu', 'gw', 'gy', 'hk', 'hm', 'hn', 'hr', 'ht', 'hu', 'id', 'ie', 'il', 'im', 'in', 'io', 'iq', 'ir', 'is', 'it', 'je', 'jm', 'jo', 'jp', 'ke', 'kg', 'kh', 'ki', 'km', 'kn', 'kp', 'kr', 'kw', 'ky', 'kz', 'la', 'lb', 'lc', 'li', 'lk', 'lr', 'ls', 'lt', 'lu', 'lv', 'ly', 'ma', 'mc', 'md', 'me', 'mf', 'mg', 'mh', 'mk', 'ml', 'mm', 'mn', 'mo', 'mp', 'mq', 'mr', 'ms', 'mt', 'mu', 'mv', 'mw', 'mx', 'my', 'mz', 'na', 'nc', 'ne', 'nf', 'ng', 'ni', 'nl', 'no', 'np', 'nr', 'nu', 'nz', 'om', 'pa', 'pe', 'pf', 'pg', 'ph', 'pk', 'pl', 'pm', 'pn', 'pr', 'ps', 'pt', 'pw', 'py', 'qa', 're', 'ro', 'rs', 'ru', 'rw', 'sa', 'sb', 'sc', 'sd', 'se', 'sg', 'sh', 'si', 'sj', 'sk', 'sl', 'sm', 'sn', 'so', 'sr', 'ss', 'st', 'sv', 'sx', 'sy', 'sz', 'tc', 'td', 'tf', 'tg', 'th', 'tj', 'tk', 'tl', 'tm', 'tn', 'to', 'tr', 'tt', 'tv', 'tw', 'tz', 'ua', 'ug', 'um', 'un', 'us', 'uy', 'uz', 'va', 'vc', 've', 'vg', 'vi', 'vn', 'vu', 'wf', 'ws', 'ye', 'yt', 'za', 'zm', 'zw');
@@ -315,3 +378,5 @@ $pagination-disabled-color: $gray-400;
 $nav-tabs-link-active-bg: transparent;
 
 $custom-checkbox-indicator-icon-checked: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M20 6L9 17l-5-5'/%3E%3C/svg%3E");
+
+@import "variables-dark";
