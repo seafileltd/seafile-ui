@@ -137,10 +137,6 @@ $body-secondary-bg: #f7f7f5;
 $body-tertiary-bg: #f5f5f5;
 $body-quartus-bg: #f4f4f4;
 $emphasis-color: #303133;
-$border-secondary-color: #e5e5e5;
-$border-tertiary-color: #e5e6e8;
-$border-quartus-color: #e9ecef;
-$border-fifth-color: #f1f1ef;
 $secondary-color: #444;
 $tertiary-color: #fff;
 $tertiary-color-rgb: 33, 37, 41;
@@ -169,7 +165,6 @@ $th-fifth-bg: #e3e3e3;
 $tr-active-bg: #f2f4f6;
 $tr-active-secondary-bg: #dbecfa;
 $tr-hover-bg: #f5f5f5;
-$td-border-color: #e8e8e8;
 
 $icon-rgb: rgba(0, 0, 0, 0.5);
 $icon-hover-rgb: rgba(0, 0, 0, 1);
@@ -225,7 +220,7 @@ $input-focus-box-shadow: 0 0 0 $input-btn-focus-width rgba(70, 127, 207, 0.25) !
 // Borders
 $border-width: 1px;
 $border-color: #eee;
-$border-color-dark: rgba(0, 40, 100, .24);
+$border-secondary-color: #f1f1ef;
 
 // Inputs
 $input-bg: #fff;
