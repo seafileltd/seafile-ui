@@ -32,9 +32,6 @@
   --#{$prefix}secondary-color: #{$secondary-color};
   --#{$prefix}tertiary-color: #{$tertiary-color};
   --#{$prefix}tertiary-color-rgb: #{to-rgb($tertiary-color)};
-  --#{$prefix}tertiary-bg: #{$tertiary-bg};
-  --#{$prefix}tertiary-bg-rgb: #{to-rgb($tertiary-bg)};
-  --#{$prefix}quartus-color: #{$quartus-color};
 
   --#{$prefix}header-bg: #{$header-bg};
   --#{$prefix}header-secondary-bg: #{$header-secondary-bg};
@@ -62,13 +59,15 @@
   --#{$prefix}icon-color: #{$icon-color};
   --#{$prefix}icon-secondary-color: #{$icon-secondary-color};
   --#{$prefix}icon-tertiary-color: #{$icon-tertiary-color};
-  --#{$prefix}icon-hover-bg: #{$icon-hover-bg};
-  --#{$prefix}icon-hover-secondary-bg: #{$icon-hover-secondary-bg};
   --#{$prefix}icon-hover-color: #{$icon-hover-color};
-  --#{$prefix}button-color: #{$button-color};
-  --#{$prefix}button-bg: #{$button-bg};
-  --#{$prefix}button-hover-color: #{$button-hover-color};
-  --#{$prefix}button-active-bg: #{$button-active-bg};
+
+  --#{$prefix}hover-bg: #{$hover-bg};
+  --#{$prefix}hover-secondary-bg: #{$hover-secondary-bg};
+  --#{$prefix}hover-tertiary-bg: #{$hover-tertiary-bg};
+  
+  --#{$prefix}bg-color: #{$bg-color};
+  --#{$prefix}bg-secondary-color: #{$bg-secondary-color};
+
   --#{$prefix}dropdown-link-bg: #{$dropdown-link-bg};
   --#{$prefix}dropdown-secondary-bg: #{$dropdown-secondary-bg};
   --#{$prefix}dropdown-tertiary-bg: #{$dropdown-tertiary-bg};
@@ -94,9 +93,6 @@
     --#{$prefix}secondary-color: #{$secondary-color-dark};
     --#{$prefix}tertiary-color: #{$tertiary-color-dark};
     --#{$prefix}tertiary-color-rgb: #{to-rgb($tertiary-color-dark)};
-    --#{$prefix}tertiary-bg: #{$tertiary-bg-dark};
-    --#{$prefix}tertiary-bg-rgb: #{to-rgb($tertiary-bg-dark)};
-    --#{$prefix}quartus-color: #{$quartus-color-dark};
 
     --#{$prefix}header-bg: #{$header-bg-dark};
     --#{$prefix}header-secondary-bg: #{$header-secondary-bg-dark};
@@ -124,13 +120,15 @@
     --#{$prefix}icon-color: #{$icon-color-dark};
     --#{$prefix}icon-secondary-color: #{$icon-secondary-color-dark};
     --#{$prefix}icon-tertiary-color: #{$icon-tertiary-color-dark};
-    --#{$prefix}icon-hover-bg: #{$icon-hover-bg-dark};
-    --#{$prefix}icon-hover-secondary-bg: #{$icon-hover-secondary-bg-dark};
     --#{$prefix}icon-hover-color: #{$icon-hover-color-dark};
-    --#{$prefix}button-color: #{$button-color-dark};
-    --#{$prefix}button-bg: #{$button-bg-dark};
-    --#{$prefix}button-hover-color: #{$button-hover-color-dark};
-    --#{$prefix}button-active-bg: #{$button-active-bg-dark};
+
+    --#{$prefix}hover-bg: #{$hover-bg-dark};
+    --#{$prefix}hover-secondary-bg: #{$hover-secondary-bg-dark};
+    --#{$prefix}hover-tertiary-bg: #{$hover-tertiary-bg-dark};
+
+    --#{$prefix}bg-color: #{$bg-color-dark};
+    --#{$prefix}bg-secondary-color: #{$bg-secondary-color-dark};
+
     --#{$prefix}dropdown-link-bg: #{$dropdown-link-bg-dark};
     --#{$prefix}dropdown-secondary-bg: #{$dropdown-secondary-bg-dark};
     --#{$prefix}dropdown-tertiary-bg: #{$dropdown-tertiary-bg-dark};

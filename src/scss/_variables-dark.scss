@@ -17,9 +17,6 @@ $secondary-bg-dark: #343a40;
 $secondary-bg-rgb-dark: 52, 58, 64;
 $tertiary-color-dark: rgba(222,  226,  230,  0.5);
 $tertiary-color-rgb-dark: 222, 226, 230;
-$tertiary-bg-dark: #2b3035;
-$tertiary-bg-rgb-dark: 43, 48, 53;
-$quartus-color-dark: #dbdbdb;
 
 $primary-text-emphasis-dark: #6ea8fe;
 $secondary-text-emphasis-dark: #a7acb1;
@@ -89,13 +86,15 @@ $icon-secondary-color-dark: #dbdbdb;
 $icon-tertiary-color-dark: #dbdbdb;
 $icon-rgb-dark: rgba(255, 255, 255, 0.5);
 $icon-hover-rgb-dark: rgba(255, 255, 255, 1);
-$icon-hover-bg-dark:#a7acb1;
-$icon-hover-secondary-bg-dark: #a7acb1;
 $icon-hover-color-dark: #fff;
-$button-bg-dark: #343a40;
-$button-color-dark: #888;
-$button-hover-color-dark: #fff;
-$button-active-bg-dark: #495057;
+
+$hover-bg-dark:#a7acb1;
+$hover-secondary-bg-dark: #a7acb1;
+$hover-tertiary-bg-dark: #a7acb1;
+
+$bg-color-dark: #343a40;
+$bg-secondary-color-dark: #343a40;
+
 $dropdown-link-color-dark: #dee2e6;
 $dropdown-link-bg-dark: #343a40;
 $dropdown-secondary-bg-dark: #343a40;
