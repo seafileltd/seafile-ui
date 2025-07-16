@@ -136,13 +136,11 @@ $body-color: $gray-900;
 $body-secondary-bg: #f7f7f5;
 $body-tertiary-bg: #f5f5f5;
 $body-quartus-bg: #f4f4f4;
+
 $emphasis-color: #303133;
 $secondary-color: #444;
 $tertiary-color: #fff;
 $tertiary-color-rgb: 33, 37, 41;
-$tertiary-bg: #f8f9fa;
-$tertiary-bg-rgb: 248, 249, 250;
-$quartus-color: #555;
 
 $header-bg: #f8fafd;
 $header-secondary-bg: #f6f6f6;
@@ -169,17 +167,16 @@ $tr-hover-bg: #f5f5f5;
 $icon-rgb: rgba(0, 0, 0, 0.5);
 $icon-hover-rgb: rgba(0, 0, 0, 1);
 $icon-color: #444;
-$icon-secondary-color: #000;
 $icon-secondary-color: #666;
 $icon-tertiary-color: #999;
-$icon-hover-bg: #efefef;
-$icon-hover-secondary-bg: #dbdbdb;
 $icon-hover-color: #333;
 
-$button-color: #888;
-$button-bg: #f0f0f0;
-$button-hover-color: #333;
-$button-active-bg: #efefef;
+$hover-bg: #efefef;
+$hover-secondary-bg: #e5e5e5;
+$hover-tertiary-bg: #dbdbdb;
+
+$bg-color: #f5f5f5;
+$bg-secondary-color: #f0f0f0;
 
 $dropdown-link-bg: #20a0ff;
 $dropdown-secondary-bg: #f2f2f2;
