@@ -132,10 +132,8 @@ $social-colors: (
 
 $body-bg: $white;
 $body-color: $gray-900;
-
-$body-secondary-bg: #f7f7f5;
-$body-tertiary-bg: #f5f5f5;
-$body-quartus-bg: #f4f4f4;
+$body-secondary-color: #666;
+$body-secondary-bg: #f5f5f5;
 
 $emphasis-color: #303133;
 $secondary-color: #444;
@@ -143,9 +141,8 @@ $tertiary-color: #fff;
 $tertiary-color-rgb: 33, 37, 41;
 
 $header-bg: #f8fafd;
-$header-secondary-bg: #f6f6f6;
-$header-tertiary-bg: #f2f2f2;
-$header-quartus-bg: #f0f0f0;
+$header-secondary-bg: #f5f5f5;
+$header-tertiary-bg: #f0f0f0;
 
 $toolbar-bg: #fff;
 $toolbar-secondary-bg: #fcfcfc;
@@ -166,7 +163,7 @@ $tr-hover-bg: #f5f5f5;
 
 $icon-rgb: rgba(0, 0, 0, 0.5);
 $icon-hover-rgb: rgba(0, 0, 0, 1);
-$icon-color: #444;
+$icon-color: #666;
 $icon-secondary-color: #666;
 $icon-tertiary-color: #999;
 $icon-hover-color: #333;
@@ -181,6 +178,9 @@ $bg-secondary-color: #f0f0f0;
 $dropdown-link-bg: #20a0ff;
 $dropdown-secondary-bg: #f2f2f2;
 $dropdown-tertiary-bg: #f5f5f5;
+
+$popover-bg: #fff;
+$placeholder-color: #495057;
 
 // Code
 $code-font-size: 85%;
@@ -218,6 +218,7 @@ $input-focus-box-shadow: 0 0 0 $input-btn-focus-width rgba(70, 127, 207, 0.25) !
 $border-width: 1px;
 $border-color: rgba(0, 40, 100, .12);
 $border-secondary-color: #eee;
+$border-tertiary-color: #eee;
 
 // Inputs
 $input-bg: #fff;

@@ -1,42 +1,20 @@
 :root,
 [data-bs-theme="light"] {
-  // Note: Custom variable values only support SassScript inside `#{}`.
-
-  // Colors
-  //
-  // Generate palettes for full colors, grays, and theme colors.
-
-  @each $color, $value in $colors {
-    --#{$prefix}#{$color}: #{$value};
-  }
-
-  @each $color, $value in $theme-colors {
-    --#{$prefix}#{$color}: #{$value};
-  }
-
-  --#{$prefix}white-rgb: #{to-rgb($white)};
-  --#{$prefix}black-rgb: #{to-rgb($black)};
-
   --#{$prefix}body-color: #{$body-color};
-  --#{$prefix}body-color-rgb: #{to-rgb($body-color)};
+  --#{$prefix}body-secondary-color: #{$body-secondary-color};
   --#{$prefix}body-bg: #{$body-bg};
-  --#{$prefix}body-bg-rgb: #{to-rgb($body-bg)};
   --#{$prefix}body-secondary-bg: #{$body-secondary-bg};
-  --#{$prefix}body-tertiary-bg: #{$body-tertiary-bg};
-  --#{$prefix}body-quartus-bg: #{$body-quartus-bg};
   --#{$prefix}emphasis-color: #{$emphasis-color};
 
   --#{$prefix}border-color: #{$border-color};
   --#{$prefix}border-secondary-color: #{$border-secondary-color};
-
-  --#{$prefix}secondary-color: #{$secondary-color};
+  --#{$prefix}border-tertiary-color: #{$border-tertiary-color};
   --#{$prefix}tertiary-color: #{$tertiary-color};
   --#{$prefix}tertiary-color-rgb: #{to-rgb($tertiary-color)};
 
   --#{$prefix}header-bg: #{$header-bg};
   --#{$prefix}header-secondary-bg: #{$header-secondary-bg};
   --#{$prefix}header-tertiary-bg: #{$header-tertiary-bg};
-  --#{$prefix}header-quartus-bg: #{$header-quartus-bg};
   --#{$prefix}toolbar-bg: #{$toolbar-bg};
   --#{$prefix}toolbar-secondary-bg: #{$toolbar-secondary-bg};
   --#{$prefix}nav-hover-bg: #{$nav-hover-bg};
@@ -54,8 +32,6 @@
   --#{$prefix}tr-active-secondary-bg: #{$tr-active-secondary-bg};
   --#{$prefix}tr-hover-bg: #{$tr-hover-bg};
 
-  --#{$prefix}icon-rgb: #{to-rgb($icon-rgb)};
-  --#{$prefix}icon-hover-rgb: #{to-rgb($icon-hover-rgb)};
   --#{$prefix}icon-color: #{$icon-color};
   --#{$prefix}icon-secondary-color: #{$icon-secondary-color};
   --#{$prefix}icon-tertiary-color: #{$icon-tertiary-color};
@@ -71,6 +47,9 @@
   --#{$prefix}dropdown-link-bg: #{$dropdown-link-bg};
   --#{$prefix}dropdown-secondary-bg: #{$dropdown-secondary-bg};
   --#{$prefix}dropdown-tertiary-bg: #{$dropdown-tertiary-bg};
+
+  --#{$prefix}popover-bg: #{$popover-bg};
+  --#{$prefix}placeholder-color: #{$placeholder-color};
 }
 
 @if $enable-dark-mode {
@@ -79,17 +58,13 @@
 
     // scss-docs-start root-dark-mode-vars
     --#{$prefix}body-color: #{$body-color-dark};
-    --#{$prefix}body-color-rgb: #{to-rgb($body-color-dark)};
     --#{$prefix}body-bg: #{$body-bg-dark};
-    --#{$prefix}body-bg-rgb: #{to-rgb($body-bg-dark)};
     --#{$prefix}body-secondary-bg: #{$body-secondary-bg-dark};
-    --#{$prefix}body-tertiary-bg: #{$body-tertiary-bg-dark};
-    --#{$prefix}body-quartus-bg: #{$body-quartus-bg-dark};
     --#{$prefix}emphasis-color: #{$emphasis-color-dark};
 
     --#{$prefix}border-color: #{$border-color-dark};
     --#{$prefix}border-secondary-color: #{$border-secondary-color-dark};
-
+    --#{$prefix}border-tertiary-color: #{$border-tertiary-color-dark};
     --#{$prefix}secondary-color: #{$secondary-color-dark};
     --#{$prefix}tertiary-color: #{$tertiary-color-dark};
     --#{$prefix}tertiary-color-rgb: #{to-rgb($tertiary-color-dark)};
@@ -97,7 +72,6 @@
     --#{$prefix}header-bg: #{$header-bg-dark};
     --#{$prefix}header-secondary-bg: #{$header-secondary-bg-dark};
     --#{$prefix}header-tertiary-bg: #{$header-tertiary-bg-dark};
-    --#{$prefix}header-quartus-bg: #{$header-quartus-bg-dark};
     --#{$prefix}toolbar-bg: #{$toolbar-bg-dark};
     --#{$prefix}toolbar-secondary-bg: #{$toolbar-secondary-bg-dark};
     --#{$prefix}nav-hover-bg: #{$nav-hover-bg-dark};
@@ -115,8 +89,6 @@
     --#{$prefix}tr-active-secondary-bg: #{$tr-active-secondary-bg-dark};
     --#{$prefix}tr-hover-bg: #{$tr-hover-bg-dark};
 
-    --#{$prefix}icon-rgb: #{to-rgb($icon-rgb-dark)};
-    --#{$prefix}icon-hover-rgb: #{to-rgb($icon-hover-rgb-dark)};
     --#{$prefix}icon-color: #{$icon-color-dark};
     --#{$prefix}icon-secondary-color: #{$icon-secondary-color-dark};
     --#{$prefix}icon-tertiary-color: #{$icon-tertiary-color-dark};
@@ -132,5 +104,8 @@
     --#{$prefix}dropdown-link-bg: #{$dropdown-link-bg-dark};
     --#{$prefix}dropdown-secondary-bg: #{$dropdown-secondary-bg-dark};
     --#{$prefix}dropdown-tertiary-bg: #{$dropdown-tertiary-bg-dark};
+
+    --#{$prefix}popover-bg: #{$popover-bg-dark};
+    --#{$prefix}placeholder-color: #{$placeholder-color-dark};
   }
 }

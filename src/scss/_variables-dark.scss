@@ -1,12 +1,6 @@
-$body-bg-dark: $gray-900 !default;
-$body-color-dark: $gray-300 !default;
-
-$body-color-dark: #fff;
-$body-color-rgb-dark: 222, 226, 230;
-$body-bg-dark: #2b3035;
-$body-secondary-bg-dark: #343a40;
-$body-tertiary-bg-dark: #212529;
-$body-quartus-bg-dark: #212529;
+$body-color-dark: rgba($white,.9);
+$body-bg-dark: rgba(09, 09, 09, 1);
+$body-secondary-bg-dark: rgba(255, 255, 255, .1);
 $body-bg-rgb-dark: 33, 37, 41;
 
 $emphasis-color-dark: #fff;
@@ -55,47 +49,50 @@ $highlight-color-dark: #dee2e6;
 $highlight-bg-dark: #664d03;
 
 $border-color-dark: rgba($white, .1);
-$border-secondary-color-dark: rgba($white,.15);
+$border-secondary-color-dark: rgba($white, .1);
+$border-tertiary-color-dark: rgba(51, 52, 53, 1);
 
 $form-valid-color-dark: #75b798;
 $form-valid-border-color-dark: #75b798;
 $form-invalid-color-dark: #ea868f;
 $form-invalid-border-color-dark: #ea868f;
 
-$header-bg-dark: #212529;
+$header-bg-dark: rgba(19, 19, 19, 1);
 $header-secondary-bg-dark: #343a40;
-$header-tertiary-bg-dark: #2b3035;
-$header-quartus-bg-dark: #2b3035;
+$header-tertiary-bg-dark: #343a40;
 $toolbar-bg-dark: #343a40;
 $toolbar-secondary-bg-dark: #343a40;
-$nav-hover-bg-dark: #343a40;
-$nav-active-bg-dark: #495057;
+$nav-hover-bg-dark: rgba(255, 255, 255, 0.1);
+$nav-active-bg-dark: rgba(255, 255, 255, 0.08);
 $wiki-nav-hover-bg-dark: #343a40;
 $wiki-nav-active-bg-dark: #495057;
-$th-bg-dark: #343a40;
-$th-secondary-bg-dark: #343a40;
-$th-tertiary-bg-dark: #343a40;
-$th-quartus-bg-dark: #343a40;
+$th-bg-dark: rgba(19, 19, 19, 1);
+$th-secondary-bg-dark: rgba(19, 19, 19, 1);
+$th-tertiary-bg-dark: rgba(19, 19, 19, 1);
+$th-quartus-bg-dark: rgba(19, 19, 19, 1);
 $th-fifth-bg-dark: #343a40;
-$tr-hover-bg-dark: #343a40;
-$tr-active-bg-dark: #495057;
-$tr-active-secondary-bg-dark: #495057;
+$tr-hover-bg-dark: rgba(255, 255, 255, 0.08);
+$tr-active-bg-dark: rgba(255, 255, 255, .12);
+$tr-active-secondary-bg-dark: rgba(255, 255, 255, .12);
 $td-border-color-dark: rgba($white, .1);
-$icon-color-dark: #dbdbdb;
-$icon-secondary-color-dark: #dbdbdb;
-$icon-tertiary-color-dark: #dbdbdb;
+$icon-color-dark: rgba(255, 255, 255, 0.7);
+$icon-secondary-color-dark: rgba(255, 255, 255, 0.7);
+$icon-tertiary-color-dark: rgba(255, 255, 255, 0.5);
 $icon-rgb-dark: rgba(255, 255, 255, 0.5);
 $icon-hover-rgb-dark: rgba(255, 255, 255, 1);
 $icon-hover-color-dark: #fff;
 
-$hover-bg-dark:#a7acb1;
-$hover-secondary-bg-dark: #a7acb1;
-$hover-tertiary-bg-dark: #a7acb1;
+$hover-bg-dark:rgba(255, 255, 255, 0.1);
+$hover-secondary-bg-dark: rgba(255, 255, 255, 0.1);
+$hover-tertiary-bg-dark: rgba(255, 255, 255, 0.1);
 
-$bg-color-dark: #343a40;
-$bg-secondary-color-dark: #343a40;
+$bg-color-dark: rgba(255, 255, 255, 0.08);
+$bg-secondary-color-dark: rgba(255, 255, 255, 0.08);
 
 $dropdown-link-color-dark: #dee2e6;
 $dropdown-link-bg-dark: #343a40;
 $dropdown-secondary-bg-dark: #343a40;
 $dropdown-tertiary-bg-dark: #343a40;
+
+$popover-bg-dark: rgba(28, 29, 31, 1);
+$placeholder-color-dark: rgba($white,.5);
