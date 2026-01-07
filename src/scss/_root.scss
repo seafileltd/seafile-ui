@@ -8,7 +8,6 @@
 
   --#{$prefix}border-color: #{$border-color};
   --#{$prefix}border-secondary-color: #{$border-secondary-color};
-  --#{$prefix}border-tertiary-color: #{$border-tertiary-color};
   --#{$prefix}tertiary-color: #{$tertiary-color};
   --#{$prefix}tertiary-color-rgb: #{to-rgb($tertiary-color)};
 
@@ -64,7 +63,6 @@
 
     --#{$prefix}border-color: #{$border-color-dark};
     --#{$prefix}border-secondary-color: #{$border-secondary-color-dark};
-    --#{$prefix}border-tertiary-color: #{$border-tertiary-color-dark};
     --#{$prefix}secondary-color: #{$secondary-color-dark};
     --#{$prefix}tertiary-color: #{$tertiary-color-dark};
     --#{$prefix}tertiary-color-rgb: #{to-rgb($tertiary-color-dark)};
