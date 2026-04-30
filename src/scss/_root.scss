@@ -34,7 +34,7 @@
 
   --#{$prefix}icon-color: #{$icon-color};
   --#{$prefix}icon-secondary-color: #{$icon-secondary-color};
-  --#{$prefix}icon-hover-color: #{$icon-hover-color};
+  --#{$prefix}icon-btn-hover-bg-color: #{$icon-btn-hover-bg-color};
 
   --#{$prefix}hover-bg: #{$hover-bg};
   --#{$prefix}hover-secondary-bg: #{$hover-secondary-bg};
@@ -91,7 +91,7 @@
 
     --#{$prefix}icon-color: #{$icon-color-dark};
     --#{$prefix}icon-secondary-color: #{$icon-secondary-color-dark};
-    --#{$prefix}icon-hover-color: #{$icon-hover-color-dark};
+    --#{$prefix}icon-btn-hover-bg-color: #{$icon-btn-hover-bg-color-dark};
 
     --#{$prefix}hover-bg: #{$hover-bg-dark};
     --#{$prefix}hover-secondary-bg: #{$hover-secondary-bg-dark};

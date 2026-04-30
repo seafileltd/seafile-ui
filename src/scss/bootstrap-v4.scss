@@ -791,47 +791,71 @@ a {
 // button
 .btn-success,
 .btn-info,
-.btn-warning,
-.btn-primary {
+.btn-warning {
   --bs-btn-color: #fff;
   --bs-btn-hover-color: #fff;
   --bs-btn-active-color: #fff;
   --bs-btn-disabled-color: #fff;
 }
 
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #{$sf-orange2};
+  --bs-btn-border-color: #{$sf-orange2};
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #{$sf-orange-text};
+  --bs-btn-hover-border-color: #{$sf-orange-text};
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #{$sf-orange-active};
+  --bs-btn-active-border-color: #{$sf-orange-active};
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #{$sf-orange2};
+  --bs-btn-disabled-border-color: #{$sf-orange2};
+}
+
 .btn-secondary {
   --bs-btn-color: #212529;
+  --bs-btn-bg: #FFFFFF;
+  --bs-btn-border-color: rgba(0, 40, 100, 0.12);
   --bs-btn-hover-color: #212529;
+  --bs-btn-hover-bg: rgba(0, 0, 0, 0.04);
+  --bs-btn-hover-border-color: rgba(0, 40, 100, 0.12);
   --bs-btn-active-color: #212529;
+  --bs-btn-active-bg: #E9E9E9;
+  --bs-btn-active-border-color: rgba(0, 40, 100, 0.12);
   --bs-btn-disabled-color: #212529;
+  --bs-btn-disabled-bg: #FFFFFF;
+  --bs-btn-disabled-border-color: rgba(0, 40, 100, 0.12);
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #{$sf-orange-text};
+  --bs-btn-bg: #FFFFFF;
+  --bs-btn-border-color: #{$sf-orange-text};
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #{$sf-orange-text};
+  --bs-btn-hover-border-color: #{$sf-orange-text};
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #{$sf-orange-active};
+  --bs-btn-active-border-color: #{$sf-orange-active};
+  --bs-btn-disabled-color: #{$sf-orange-text};
+  --bs-btn-disabled-bg: #FFFFFF;
+  --bs-btn-disabled-border-color: #{$sf-orange-text};
+}
+
+.btn-primary,
+.btn-outline-primary,
+.btn-secondary {
+  opacity: 1;
+}
+
+.btn-primary:disabled,
+.btn-outline-primary:disabled,
+.btn-secondary:disabled {
+  opacity: 0.65;
 }
 
 .btn-block {
   display: block;
   width: 100%;
-}
-
-.btn-check:checked + .btn,
-:not(.btn-check) + .btn:active,
-.btn:first-child:active, .btn.active,
-.btn.show,
-.btn.btn-primary:active,
-.btn.btn-primary:hover {
-  color: #fff;
-  background-color: #d98100;
-  border-color: #cc7a00;
-}
-
-.btn-outline-primary:active,
-.btn-outline-primary:hover {
-  color: #fff;
-  background-color: #ff9800;
-  border-color: #ff9800;
-}
-
-.btn.btn-secondary:active,
-.btn.btn-secondary:hover {
-  color: #212529;
-  background-color: #f5f5f5;
-  border-color: rgba(0, 20, 49, 0.12);
 }
