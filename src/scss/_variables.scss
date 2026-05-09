@@ -1,3 +1,6 @@
+@use "sass:math";
+@use "sass:color";
+
 // Options
 $enable-rounded: true;
 $enable-shadows: false;
@@ -197,14 +200,14 @@ $yiq-text-dark: $body-color;
 $yiq-text-light: $white;
 
 // Buttons
-$input-line-height: (24/15);
-$btn-line-height: (24/13);
+$input-line-height: math.div(24, 15);
+$btn-line-height: math.div(24, 13);
 
-$input-line-height-sm: (16/14);
-$btn-line-height-sm: (16/12);
+$input-line-height-sm: math.div(16, 14);
+$btn-line-height-sm: math.div(16, 12);
 
-$input-line-height-lg: (26/18);
-$btn-line-height-lg: (26/16);
+$input-line-height-lg: math.div(26, 18);
+$btn-line-height-lg: math.div(26, 16);
 
 $input-btn-focus-width: 2px;
 
@@ -336,7 +339,7 @@ $aside-width: 22rem;
 // List group
 $list-group-border-color: $border-color;
 $list-group-active-color: $primary;
-$list-group-active-bg: mix($primary, #fff, 4%);
+$list-group-active-bg: color.mix($primary, #fff, 4%);
 $list-group-active-border-color: $list-group-border-color;
 
 // Popovers
