@@ -1,3 +1,5 @@
+@use "sass:math";
+
 @keyframes indeterminate {
 	0% {
 		left: -35%;
@@ -114,7 +116,7 @@ $loader-size: 2.5rem;
 	&:after {
 		width: $loader-size;
 		height: $loader-size;
-		margin: (- $loader-size / 2) 0 0 (- $loader-size / 2);
+		margin: (- math.div($loader-size, 2)) 0 0 (- math.div($loader-size, 2));
 		position: absolute;
 		content: '';
 		top: 50%;
