@@ -1,13 +1,13 @@
 .btn {
 	cursor: pointer;
-	font-weight: 600;
+	font-weight: 400;
 	letter-spacing: .03em;
 	font-size: px2rem(14px);
 	min-width: px2rem(38px);
 	border-radius: px2rem(4px);
 	height: px2rem(38px);
 	line-height: px2rem(38px);
-	padding: 0 px2rem(8px);
+	padding: 0 px2rem(12px);
 
 	i {
 		font-size: 1em;
@@ -64,7 +64,7 @@
 	min-width: px2rem(26px);
 	height: px2rem(32px);
 	line-height: px2rem(32px);
-	padding: 0 px2rem(8px);
+	padding: 0 px2rem(12px);
 }
 
 .btn-lg {
@@ -73,7 +73,7 @@
 	font-weight: 400;
 	height: px2rem(40px);
 	line-height: px2rem(40px);
-	padding: 0 px2rem(8px);
+	padding: 0 px2rem(12px);
 }
 
 .btn-list {
