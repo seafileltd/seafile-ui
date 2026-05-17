@@ -9,6 +9,8 @@
   --#{$prefix}border-color: #{$border-color};
   --#{$prefix}border-secondary-color: #{$border-secondary-color};
   --#{$prefix}border-tertiary-color: #{$border-tertiary-color};
+  --#{$prefix}border-quartus-color: #{$border-quartus-color};
+
   --#{$prefix}tertiary-color: #{$tertiary-color};
   --#{$prefix}tertiary-color-rgb: #{to-rgb($tertiary-color)};
 
@@ -43,9 +45,9 @@
   --#{$prefix}bg-color: #{$bg-color};
   --#{$prefix}bg-secondary-color: #{$bg-secondary-color};
 
-  --#{$prefix}dropdown-link-bg: #{$dropdown-link-bg};
-  --#{$prefix}dropdown-secondary-bg: #{$dropdown-secondary-bg};
-  --#{$prefix}dropdown-tertiary-bg: #{$dropdown-tertiary-bg};
+  --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg};
+  --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg};
+  --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg};
 
   --#{$prefix}popover-bg: #{$popover-bg};
   --#{$prefix}placeholder-color: #{$placeholder-color};
@@ -65,6 +67,8 @@
     --#{$prefix}border-color: #{$border-color-dark};
     --#{$prefix}border-secondary-color: #{$border-secondary-color-dark};
     --#{$prefix}border-tertiary-color: #{$border-tertiary-color-dark};
+    --#{$prefix}border-quartus-color: #{$border-quartus-color-dark};
+
     --#{$prefix}secondary-color: #{$secondary-color-dark};
     --#{$prefix}tertiary-color: #{$tertiary-color-dark};
     --#{$prefix}tertiary-color-rgb: #{to-rgb($tertiary-color-dark)};
@@ -100,9 +104,9 @@
     --#{$prefix}bg-color: #{$bg-color-dark};
     --#{$prefix}bg-secondary-color: #{$bg-secondary-color-dark};
 
-    --#{$prefix}dropdown-link-bg: #{$dropdown-link-bg-dark};
-    --#{$prefix}dropdown-secondary-bg: #{$dropdown-secondary-bg-dark};
-    --#{$prefix}dropdown-tertiary-bg: #{$dropdown-tertiary-bg-dark};
+    --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg-dark};
+    --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg-dark};
+    --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg-dark};
 
     --#{$prefix}popover-bg: #{$popover-bg-dark};
     --#{$prefix}placeholder-color: #{$placeholder-color-dark};

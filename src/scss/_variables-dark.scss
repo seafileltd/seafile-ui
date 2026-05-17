@@ -52,6 +52,7 @@ $highlight-bg-dark: #664d03;
 $border-color-dark: rgba($white, .1);
 $border-secondary-color-dark: rgba($white, .1);
 $border-tertiary-color-dark: rgba($white, .3);
+$border-quartus-color-dark: rgba($white, .15);
 
 $form-valid-color-dark: #75b798;
 $form-valid-border-color-dark: #75b798;
@@ -90,9 +91,9 @@ $bg-color-dark: rgba(255, 255, 255, 0.08);
 $bg-secondary-color-dark: rgba(255, 255, 255, 0.08);
 
 $dropdown-link-color-dark: #dee2e6;
-$dropdown-link-bg-dark: #343a40;
-$dropdown-secondary-bg-dark: #343a40;
-$dropdown-tertiary-bg-dark: #343a40;
+$dropdown-link-hover-bg-dark: rgba(255, 255, 255, 0.08);
+$dropdown-link-hover-secondary-bg-dark: #343a40;
+$dropdown-link-hover-tertiary-bg-dark: #343a40;
 
 $popover-bg-dark: rgba(28, 29, 31, 1);
 $placeholder-color-dark: rgba($white,.5);
