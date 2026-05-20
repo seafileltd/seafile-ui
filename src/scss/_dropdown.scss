@@ -7,16 +7,6 @@
 	min-width: 12rem;
 }
 
-.dropdown-item {
-  color: $text-muted-dark;
-
-  &:hover,
-  &:focus {
-    color: #fff;
-    background-color: #20a0ff;
-  }
-}
-
 .dropdown-menu-arrow {
 	&:before {
 		position: absolute;
