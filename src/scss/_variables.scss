@@ -346,7 +346,9 @@ $list-group-active-border-color: $list-group-border-color;
 // Popovers
 $popover-body-padding-y: .75rem;
 $popover-body-padding-x: 1rem;
-$popover-border-color: #dee3eb;
+$popover-border-color: $border-secondary-color;
+$popover-border-radius: 8px;
+$popover-box-shadow: 0 6px 14px rgba(0, 0, 0, .1);
 $popover-body-color: $text-muted-dark;
 $popover-arrow-width: .5rem;
 $popover-arrow-height: .5rem;
