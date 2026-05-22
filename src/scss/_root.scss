@@ -50,6 +50,9 @@
   --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg};
 
   --#{$prefix}popover-bg: #{$popover-bg};
+  --#{$prefix}popover-border-color: #{$border-secondary-color};
+  --#{$prefix}popover-border-radius: 8px;
+  --#{$prefix}popover-box-shadow: 0 6px 14px rgba(0, 0, 0, .1);
   --#{$prefix}placeholder-color: #{$placeholder-color};
 }
 
@@ -109,6 +112,9 @@
     --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg-dark};
 
     --#{$prefix}popover-bg: #{$popover-bg-dark};
+    --#{$prefix}popover-border-color: #{$border-secondary-color-dark};
+    --#{$prefix}popover-border-radius: 8px;
+    --#{$prefix}popover-box-shadow: 0 6px 14px rgba(0, 0, 0, .1);
     --#{$prefix}placeholder-color: #{$placeholder-color-dark};
   }
 }
