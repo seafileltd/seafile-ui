@@ -21,7 +21,7 @@
     "css-minimizer-webpack-plugin": "8.0.0",
     "debug": "^4.1.1",
     "ejs": "3.1.10",
-    "express": "4.22.1",
+    "express": "4.22.2",
     "identity-obj-proxy": "3.0.0",
     "is-wsl": "^1.1.0",
     "mini-css-extract-plugin": "^2.4.5",
