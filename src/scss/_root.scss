@@ -42,6 +42,8 @@
   --#{$prefix}hover-secondary-bg: #{$hover-secondary-bg};
   --#{$prefix}hover-tertiary-bg: #{$hover-tertiary-bg};
 
+  --#{$prefix}active-secondary-bg: #{$active-secondary-bg};
+
   --#{$prefix}bg-color: #{$bg-color};
   --#{$prefix}bg-secondary-color: #{$bg-secondary-color};
 
@@ -103,6 +105,8 @@
     --#{$prefix}hover-bg: #{$hover-bg-dark};
     --#{$prefix}hover-secondary-bg: #{$hover-secondary-bg-dark};
     --#{$prefix}hover-tertiary-bg: #{$hover-tertiary-bg-dark};
+
+    --#{$prefix}active-secondary-bg: #{$active-secondary-bg};
 
     --#{$prefix}bg-color: #{$bg-color-dark};
     --#{$prefix}bg-secondary-color: #{$bg-secondary-color-dark};
