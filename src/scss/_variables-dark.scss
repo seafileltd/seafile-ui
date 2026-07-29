@@ -10,7 +10,7 @@ $secondary-color-dark: #dbdbdb;
 $secondary-color-rgb-dark: 222, 226, 230;
 $secondary-bg-dark: #343a40;
 $secondary-bg-rgb-dark: 52, 58, 64;
-$tertiary-color-dark: rgba(222,  226,  230,  0.5);
+$tertiary-color-dark: rgba(222, 226, 230, 0.5);
 $tertiary-color-rgb-dark: 222, 226, 230;
 
 $primary-text-emphasis-dark: #6ea8fe;
@@ -85,9 +85,11 @@ $icon-rgb-dark: rgba(255, 255, 255, 0.5);
 $icon-hover-rgb-dark: rgba(255, 255, 255, 1);
 $icon-btn-hover-bg-color-dark: rgba(255, 255, 255, 0.1);
 
-$hover-bg-dark:rgba(255, 255, 255, 0.1);
+$hover-bg-dark: rgba(255, 255, 255, 0.1);
 $hover-secondary-bg-dark: rgba(255, 255, 255, 0.1);
 $hover-tertiary-bg-dark: rgba(255, 255, 255, 0.1);
+
+$active-secondary-bg-dark: rgba(255, 255, 255, 0.08);
 
 $bg-color-dark: rgba(255, 255, 255, 0.08);
 $bg-secondary-color-dark: rgba(255, 255, 255, 0.08);
@@ -98,4 +100,4 @@ $dropdown-link-hover-secondary-bg-dark: #343a40;
 $dropdown-link-hover-tertiary-bg-dark: #343a40;
 
 $popover-bg-dark: rgba(28, 29, 31, 1);
-$placeholder-color-dark: rgba($white,.5);
+$placeholder-color-dark: rgba($white, .5);
