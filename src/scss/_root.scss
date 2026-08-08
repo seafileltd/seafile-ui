@@ -47,15 +47,18 @@
   --#{$prefix}bg-color: #{$bg-color};
   --#{$prefix}bg-secondary-color: #{$bg-secondary-color};
 
-  --#{$prefix}dropdown-box-shadow: #{$dropdown-box-shadow};
-  --#{$prefix}dropdown-border-radius: #{$dropdown-border-radius};
-  --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg};
-  --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg};
-  --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg};
-  --#{$prefix}dropdown-padding-x: #{$dropdown-padding-x};
-  --#{$prefix}dropdown-padding-y: #{$dropdown-padding-y};
-  --#{$prefix}dropdown-item-padding-x: #{$dropdown-item-padding-x};
-  --#{$prefix}dropdown-item-padding-y: #{$dropdown-item-padding-y};
+  .dropdown-menu {
+    --#{$prefix}dropdown-link-color: #{$dropdown-link-color};
+    --#{$prefix}dropdown-box-shadow: #{$dropdown-box-shadow};
+    --#{$prefix}dropdown-border-radius: #{$dropdown-border-radius};
+    --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg};
+    --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg};
+    --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg};
+    --#{$prefix}dropdown-padding-x: #{$dropdown-padding-x};
+    --#{$prefix}dropdown-padding-y: #{$dropdown-padding-y};
+    --#{$prefix}dropdown-item-padding-x: #{$dropdown-item-padding-x};
+    --#{$prefix}dropdown-item-padding-y: #{$dropdown-item-padding-y};
+  }
 
   --#{$prefix}popover-bg: #{$popover-bg};
   --#{$prefix}popover-border-color: #{$border-secondary-color};
@@ -85,6 +88,13 @@
   --#{$prefix}placeholder-input-color: #{$input-placeholder-color};
   --#{$prefix}input-disabled-bg: #{$input-disabled-bg};
   --#{$prefix}primary-subtle-bg: rgba(var(--#{$prefix}primary-rgb), 0.1);
+
+  --#{$prefix}form-select-bg: var(--#{$prefix}body-bg);
+  --#{$prefix}form-select-color: var(--#{$prefix}body-color);
+  --#{$prefix}form-select-border-color: var(--#{$prefix}border-color);
+  --#{$prefix}form-select-focus-border-color: #3e84f7;
+  --#{$prefix}form-select-focus-box-shadow: 0 0 0 2px rgba(62, 132, 247, 0.25);
+  --#{$prefix}form-select-disabled-bg: var(--#{$prefix}body-secondary-bg);
 
   --#{$prefix}calendar-border-color: #{$calendar-border-color};
   --#{$prefix}calendar-disabled-bg: #{$calendar-disabled-bg};
@@ -147,8 +157,23 @@
     --#{$prefix}bg-secondary-color: #{$bg-secondary-color-dark};
 
     --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg-dark};
-    --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg-dark};
-    --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg-dark};
+    --#{$prefix}dropdown-divider-bg: #{$dropdown-divider-bg-dark};
+    .dropdown-menu {
+      --#{$prefix}dropdown-link-color: #{$dropdown-link-color-dark};
+      --#{$prefix}dropdown-divider-bg: #{$dropdown-divider-bg-dark};
+      --#{$prefix}dropdown-link-hover-color: #{$body-color-dark};
+      --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg-dark};
+      --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg-dark};
+      --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg-dark};
+      --#{$prefix}dropdown-padding-x: #{$dropdown-padding-x};
+      --#{$prefix}dropdown-padding-y: #{$dropdown-padding-y};
+      --#{$prefix}dropdown-item-padding-x: #{$dropdown-item-padding-x};
+      --#{$prefix}dropdown-item-padding-y: #{$dropdown-item-padding-y};
+      --#{$prefix}dropdown-box-shadow: #{$dropdown-box-shadow-dark};
+      --#{$prefix}dropdown-border-radius: #{$dropdown-border-radius};
+      --#{$prefix}dropdown-border-color: #{$dropdown-border-color-dark};
+      --#{$prefix}dropdown-bg: #{$dropdown-bg-dark};
+    }
 
     --#{$prefix}popover-bg: #{$popover-bg-dark};
     --#{$prefix}popover-border-color: #{$border-secondary-color-dark};
@@ -184,6 +209,13 @@
     --#{$prefix}input-disabled-bg: #{$input-disabled-bg-dark};
     --#{$prefix}primary-subtle-bg: rgba(var(--#{$prefix}primary-rgb), 0.15);
 
+    --#{$prefix}form-select-bg: var(--#{$prefix}body-bg);
+    --#{$prefix}form-select-color: var(--#{$prefix}body-color);
+    --#{$prefix}form-select-border-color: var(--#{$prefix}border-color);
+    --#{$prefix}form-select-focus-border-color: #3e84f7;
+    --#{$prefix}form-select-focus-box-shadow: 0 0 0 2px rgba(62, 132, 247, 0.25);
+    --#{$prefix}form-select-disabled-bg: var(--#{$prefix}disabled-bg);
+
     --#{$prefix}calendar-border-color: #{$calendar-border-color-dark};
     --#{$prefix}calendar-disabled-bg: #{$calendar-disabled-bg-dark};
     --#{$prefix}calendar-disabled-color: #{$calendar-disabled-color-dark};
@@ -193,15 +225,6 @@
     .modal {
       --#{$prefix}modal-bg: #{$modal-bg-dark};
       --#{$prefix}modal-border-color: #{$modal-border-color-dark};
-    }
-
-    .dropdown-menu {
-      --#{$prefix}dropdown-divider-bg: #{$dropdown-divider-bg-dark};
-      --#{$prefix}dropdown-link-hover-bg: #{$btn-secondary-hover-bg-dark};
-      color: #{$body-color-dark};
-      background-color: #{$dropdown-bg-dark};
-      border-color: #{$dropdown-border-color-dark};
-      box-shadow: #{$dropdown-box-shadow-dark};
     }
 
     .btn-secondary {

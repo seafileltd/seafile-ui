@@ -244,8 +244,8 @@ $input-btn-focus-width: 2px;
 
 $input-disabled-bg: $gray-100;
 
-$input-focus-border-color: #1991eb;
-$custom-select-focus-border-color: #1991eb;
+$input-focus-border-color: #3e84f7;
+$custom-select-focus-border-color: #3e84f7;
 $input-focus-box-shadow: 0 0 0 $input-btn-focus-width rgba(70, 127, 207, 0.25) !default;
 
 // Borders
@@ -349,6 +349,7 @@ $dropdown-border-color: $border-secondary-color;
 $dropdown-border-radius: 8px;
 $dropdown-box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.1);
 
+$dropdown-link-color: $body-color;
 $dropdown-link-hover-bg: rgba(0, 0, 0, 0.04);
 $dropdown-link-hover-secondary-bg: #f2f2f2;
 $dropdown-link-hover-tertiary-bg: #f5f5f5;
