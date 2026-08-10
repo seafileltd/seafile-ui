@@ -184,6 +184,7 @@
     .popover {
       --#{$prefix}popover-bg: #{$popover-bg-dark};
       --#{$prefix}popover-border-color: #{$border-secondary-color-dark};
+      box-shadow: none;
     }
 
     --#{$prefix}box-shadow: #{$box-shadow-dark};
