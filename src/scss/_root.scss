@@ -47,6 +47,10 @@
   --#{$prefix}bg-color: #{$bg-color};
   --#{$prefix}bg-secondary-color: #{$bg-secondary-color};
 
+  --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg};
+  --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg};
+  --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg};
+
   .dropdown-menu {
     --#{$prefix}dropdown-link-color: #{$dropdown-link-color};
     --#{$prefix}dropdown-box-shadow: #{$dropdown-box-shadow};
