@@ -51,11 +51,60 @@
   --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg};
   --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg};
 
+  .dropdown-menu {
+    --#{$prefix}dropdown-link-color: #{$dropdown-link-color};
+    --#{$prefix}dropdown-box-shadow: #{$dropdown-box-shadow};
+    --#{$prefix}dropdown-border-radius: #{$dropdown-border-radius};
+    --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg};
+    --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg};
+    --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg};
+    --#{$prefix}dropdown-padding-x: #{$dropdown-padding-x};
+    --#{$prefix}dropdown-padding-y: #{$dropdown-padding-y};
+    --#{$prefix}dropdown-item-padding-x: #{$dropdown-item-padding-x};
+    --#{$prefix}dropdown-item-padding-y: #{$dropdown-item-padding-y};
+  }
+
   --#{$prefix}popover-bg: #{$popover-bg};
   --#{$prefix}popover-border-color: #{$border-secondary-color};
-  --#{$prefix}popover-border-radius: 8px;
-  --#{$prefix}popover-box-shadow: 0 6px 14px rgba(0, 0, 0, .1);
+  --#{$prefix}popover-border-radius: #{$popover-border-radius};
+  --#{$prefix}popover-box-shadow: #{$popover-box-shadow};
+
   --#{$prefix}placeholder-color: #{$placeholder-color};
+
+  --#{$prefix}box-shadow: #{$box-shadow};
+  --#{$prefix}box-shadow-hover: #{$box-shadow-hover};
+
+  --#{$prefix}bg-card: #{$bg-card};
+  --#{$prefix}bg-card-elevated: #{$bg-card-elevated};
+  --#{$prefix}bg-muted: #{$bg-muted};
+
+  --#{$prefix}disabled-bg: #{$disabled-bg};
+  --#{$prefix}disabled-color: #{$disabled-color};
+  --#{$prefix}disabled-text-color: #{$disabled-text-color};
+
+  --#{$prefix}image-filter: #{$image-filter};
+  --#{$prefix}thumbnail-bg-color: #{$thumbnail-bg-color};
+
+  --#{$prefix}bg-code: #{$bg-code};
+  --#{$prefix}bg-disabled-secondary: #{$bg-disabled-secondary};
+  --#{$prefix}bg-overlay: #{$bg-overlay};
+  --#{$prefix}bg-surface-dimmed: #{$bg-surface-dimmed};
+  --#{$prefix}placeholder-input-color: #{$input-placeholder-color};
+  --#{$prefix}input-disabled-bg: #{$input-disabled-bg};
+  --#{$prefix}primary-subtle-bg: rgba(var(--#{$prefix}primary-rgb), 0.1);
+
+  --#{$prefix}form-select-bg: var(--#{$prefix}body-bg);
+  --#{$prefix}form-select-color: var(--#{$prefix}body-color);
+  --#{$prefix}form-select-border-color: var(--#{$prefix}border-color);
+  --#{$prefix}form-select-focus-border-color: #3e84f7;
+  --#{$prefix}form-select-focus-box-shadow: 0 0 0 2px rgba(62, 132, 247, 0.25);
+  --#{$prefix}form-select-disabled-bg: var(--#{$prefix}body-secondary-bg);
+
+  --#{$prefix}calendar-border-color: #{$calendar-border-color};
+  --#{$prefix}calendar-disabled-bg: #{$calendar-disabled-bg};
+  --#{$prefix}calendar-disabled-color: #{$calendar-disabled-color};
+  --#{$prefix}calendar-out-range-color: #{$calendar-out-range-color};
+  --#{$prefix}calendar-time-section-border: #{$calendar-time-section-border};
 }
 
 @if $enable-dark-mode {
@@ -112,13 +161,95 @@
     --#{$prefix}bg-secondary-color: #{$bg-secondary-color-dark};
 
     --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg-dark};
-    --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg-dark};
-    --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg-dark};
+    --#{$prefix}dropdown-divider-bg: #{$dropdown-divider-bg-dark};
+    .dropdown-menu {
+      --#{$prefix}dropdown-link-color: #{$dropdown-link-color-dark};
+      --#{$prefix}dropdown-divider-bg: #{$dropdown-divider-bg-dark};
+      --#{$prefix}dropdown-link-hover-color: #{$body-color-dark};
+      --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg-dark};
+      --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg-dark};
+      --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg-dark};
+      --#{$prefix}dropdown-padding-x: #{$dropdown-padding-x};
+      --#{$prefix}dropdown-padding-y: #{$dropdown-padding-y};
+      --#{$prefix}dropdown-item-padding-x: #{$dropdown-item-padding-x};
+      --#{$prefix}dropdown-item-padding-y: #{$dropdown-item-padding-y};
+      --#{$prefix}dropdown-box-shadow: #{$dropdown-box-shadow-dark};
+      --#{$prefix}dropdown-border-radius: #{$dropdown-border-radius};
+      --#{$prefix}dropdown-border-color: #{$dropdown-border-color-dark};
+      --#{$prefix}dropdown-bg: #{$dropdown-bg-dark};
+    }
 
     --#{$prefix}popover-bg: #{$popover-bg-dark};
     --#{$prefix}popover-border-color: #{$border-secondary-color-dark};
-    --#{$prefix}popover-border-radius: 8px;
-    --#{$prefix}popover-box-shadow: 0 6px 14px rgba(0, 0, 0, .1);
+    --#{$prefix}popover-border-radius: #{$popover-border-radius};
+    --#{$prefix}popover-box-shadow: none;
     --#{$prefix}placeholder-color: #{$placeholder-color-dark};
+
+    .popover {
+      --#{$prefix}popover-bg: #{$popover-bg-dark};
+      --#{$prefix}popover-border-color: #{$border-secondary-color-dark};
+      box-shadow: none;
+    }
+
+    --#{$prefix}box-shadow: #{$box-shadow-dark};
+    --#{$prefix}box-shadow-hover: #{$box-shadow-hover-dark};
+    --#{$prefix}box-shadow-none: #{$box-shadow-none-dark};
+
+    --#{$prefix}bg-card: #{$bg-card-dark};
+    --#{$prefix}bg-card-elevated: #{$bg-card-elevated-dark};
+    --#{$prefix}bg-muted: #{$bg-muted-dark};
+
+    --#{$prefix}disabled-bg: #{$disabled-bg-dark};
+    --#{$prefix}disabled-color: #{$disabled-color-dark};
+    --#{$prefix}disabled-text-color: #{$disabled-text-color-dark};
+
+    --#{$prefix}image-filter: #{$image-filter-dark};
+    --#{$prefix}thumbnail-bg-color: #{$thumbnail-bg-color-dark};
+
+    --#{$prefix}bg-code: #{$bg-code-dark};
+    --#{$prefix}bg-disabled-secondary: #{$bg-disabled-secondary-dark};
+    --#{$prefix}bg-overlay: #{$bg-overlay-dark};
+    --#{$prefix}bg-surface-dimmed: #{$bg-surface-dimmed-dark};
+    --#{$prefix}placeholder-input-color: #{$placeholder-color-dark};
+    --#{$prefix}input-disabled-bg: #{$input-disabled-bg-dark};
+    --#{$prefix}primary-subtle-bg: rgba(var(--#{$prefix}primary-rgb), 0.15);
+
+    --#{$prefix}form-select-bg: var(--#{$prefix}body-bg);
+    --#{$prefix}form-select-color: var(--#{$prefix}body-color);
+    --#{$prefix}form-select-border-color: var(--#{$prefix}border-color);
+    --#{$prefix}form-select-focus-border-color: #3e84f7;
+    --#{$prefix}form-select-focus-box-shadow: 0 0 0 2px rgba(62, 132, 247, 0.25);
+    --#{$prefix}form-select-disabled-bg: var(--#{$prefix}disabled-bg);
+
+    --#{$prefix}calendar-border-color: #{$calendar-border-color-dark};
+    --#{$prefix}calendar-disabled-bg: #{$calendar-disabled-bg-dark};
+    --#{$prefix}calendar-disabled-color: #{$calendar-disabled-color-dark};
+    --#{$prefix}calendar-out-range-color: #{$calendar-out-range-color-dark};
+    --#{$prefix}calendar-time-section-border: #{$calendar-time-section-border-dark};
+
+    .modal {
+      --#{$prefix}modal-bg: #{$modal-bg-dark};
+      --#{$prefix}modal-border-color: #{$modal-border-color-dark};
+    }
+
+    .btn-secondary {
+      --#{$prefix}btn-color: #{$btn-secondary-color-dark};
+      --#{$prefix}btn-bg: #{$btn-secondary-bg-dark};
+      --#{$prefix}btn-hover-bg: #{$btn-secondary-hover-bg-dark};
+      --#{$prefix}btn-hover-color: #{$btn-secondary-hover-color-dark};
+      --#{$prefix}btn-border-color: #{$btn-secondary-border-color-dark};
+      --#{$prefix}btn-hover-border-color: #{$btn-secondary-hover-border-color-dark};
+    }
+
+    .btn-outline-primary {
+      --#{$prefix}btn-bg: #{$btn-outline-primary-bg-dark};
+    }
+
+    .btn.btn-secondary:active,
+    .btn.btn-secondary:hover {
+      background-color: var(--#{$prefix}btn-hover-bg);
+      border-color: var(--#{$prefix}btn-hover-border-color);
+      color: var(--#{$prefix}btn-hover-color);
+    }
   }
 }

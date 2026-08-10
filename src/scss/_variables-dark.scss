@@ -94,10 +94,56 @@ $active-secondary-bg-dark: rgba(255, 255, 255, 0.08);
 $bg-color-dark: rgba(255, 255, 255, 0.08);
 $bg-secondary-color-dark: rgba(255, 255, 255, 0.08);
 
-$dropdown-link-color-dark: #dee2e6;
+$dropdown-link-color-dark: $body-color-dark;
 $dropdown-link-hover-bg-dark: rgba(255, 255, 255, 0.08);
 $dropdown-link-hover-secondary-bg-dark: #343a40;
 $dropdown-link-hover-tertiary-bg-dark: #343a40;
 
 $popover-bg-dark: rgba(28, 29, 31, 1);
 $placeholder-color-dark: rgba($white, .5);
+
+$box-shadow-dark: none;
+$box-shadow-hover-dark: none;
+$box-shadow-none-dark: none;
+
+$bg-card-dark: $bg-color-dark;
+$bg-card-elevated-dark: rgba(255, 255, 255, .05);
+$bg-muted-dark: rgba(255, 255, 255, .05);
+
+$disabled-bg-dark: rgba(255, 255, 255, .03);
+$disabled-color-dark: rgba(255, 255, 255, .2);
+$disabled-text-color-dark: rgba(255, 255, 255, .3);
+
+$image-filter-dark: invert(1);
+
+$thumbnail-bg-color-dark: $white;
+
+$bg-code-dark: $popover-bg-dark;
+$bg-disabled-secondary-dark: rgba(255, 255, 255, .2);
+$bg-overlay-dark: rgba(255, 255, 255, .5);
+
+$bg-surface-dimmed-dark: rgba(0, 0, 0, .75);
+
+// Input disabled background — darker in dark mode to visually dim the field
+$input-disabled-bg-dark: rgba(0, 0, 0, .25);
+
+// Bootstrap component dark overrides (Seafile-specific values)
+$modal-bg-dark: rgba(28, 29, 31, 1);
+$modal-border-color-dark: rgba(51, 52, 53, 1);
+$dropdown-bg-dark: rgba(28, 29, 31, 1);
+$dropdown-border-color-dark: rgb(51, 52, 53);
+$dropdown-divider-bg-dark: rgba(51, 52, 53, 1);
+$dropdown-box-shadow-dark: none;
+$btn-secondary-color-dark: rgba(255, 255, 255, .9);
+$btn-secondary-bg-dark: rgba(255, 255, 255, .05);
+$btn-secondary-hover-bg-dark: rgba(255, 255, 255, .08);
+$btn-secondary-border-color-dark: rgba(255, 255, 255, .1);
+$btn-secondary-hover-color-dark: rgba(255, 255, 255, .9);
+$btn-secondary-hover-border-color-dark: rgba(255, 255, 255, .1);
+$btn-outline-primary-bg-dark: transparent;
+
+$calendar-border-color-dark: $border-color-dark;
+$calendar-disabled-bg-dark: rgba(255, 255, 255, .08);
+$calendar-disabled-color-dark: rgba(255, 255, 255, .2);
+$calendar-out-range-color-dark: rgba(255, 255, 255, .2);
+$calendar-time-section-border-dark: rgba(255, 255, 255, .1);

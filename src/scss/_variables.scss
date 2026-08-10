@@ -180,12 +180,41 @@ $active-secondary-bg: rgba(0, 0, 0, 0.03);
 $bg-color: #f5f5f5;
 $bg-secondary-color: #f0f0f0;
 
-$dropdown-link-hover-bg: rgba(0, 0, 0, 0.04);
-$dropdown-link-hover-secondary-bg: #f2f2f2;
-$dropdown-link-hover-tertiary-bg: #f5f5f5;
-
 $popover-bg: #fff;
 $placeholder-color: #495057;
+
+// Box shadows
+$box-shadow: 0 2px 8px rgba(0, 0, 0, .08);
+$box-shadow-hover: 0 2px 12px rgba(0, 0, 0, .1);
+$box-shadow-none: none;
+
+// Surface / card backgrounds
+$bg-card: #f9f9f9;
+$bg-card-elevated: #fff;
+$bg-muted: #efefef;
+
+// Disabled states
+$disabled-bg: rgba(0, 0, 0, .03);
+$disabled-color: rgba(0, 0, 0, .3);
+$disabled-text-color: #c2c2c2;
+
+// Image/icon filters (for light -> dark icon inversion)
+$image-filter: none;
+
+// Thumbnail background (becomes white in dark mode)
+$thumbnail-bg-color: transparent;
+
+// Code block background
+$bg-code: #f5f7fa;
+
+// Disabled states (secondary)
+$bg-disabled-secondary: #dbdbdb;
+
+// Overlay background (e.g., attachment close button)
+$bg-overlay: rgba(0, 0, 0, 0.5);
+
+// Dimmed surface (login panel)
+$bg-surface-dimmed: $body-secondary-bg;
 
 // Code
 $code-font-size: 85%;
@@ -215,8 +244,8 @@ $input-btn-focus-width: 2px;
 
 $input-disabled-bg: $gray-100;
 
-$input-focus-border-color: #1991eb;
-$custom-select-focus-border-color: #1991eb;
+$input-focus-border-color: #3e84f7;
+$custom-select-focus-border-color: #3e84f7;
 $input-focus-box-shadow: 0 0 0 $input-btn-focus-width rgba(70, 127, 207, 0.25) !default;
 
 // Borders
@@ -225,6 +254,13 @@ $border-color: rgba(0, 40, 100, .12);
 $border-secondary-color: #eee;
 $border-tertiary-color: #ccc;
 $border-quartus-color: #eaeaea;
+
+// Calendar
+$calendar-border-color: $border-color;
+$calendar-disabled-bg: rgba(0, 0, 0, .05);
+$calendar-disabled-color: rgba(0, 0, 0, .2);
+$calendar-out-range-color: rgba(0, 0, 0, .2);
+$calendar-time-section-border: $border-color;
 
 // Inputs
 $input-bg: #fff;
@@ -308,8 +344,20 @@ $sizes: (
 $footer-bg: #fff;
 
 // Dropdowns
+$dropdown-min-width: 200px;
 $dropdown-border-color: $border-secondary-color;
+$dropdown-border-radius: 8px;
 $dropdown-box-shadow: 0 6px 14px 0 rgba(0, 0, 0, 0.1);
+
+$dropdown-link-color: $body-color;
+$dropdown-link-hover-bg: rgba(0, 0, 0, 0.04);
+$dropdown-link-hover-secondary-bg: #f2f2f2;
+$dropdown-link-hover-tertiary-bg: #f5f5f5;
+$dropdown-padding-x: 8px;
+$dropdown-padding-y: 8px;
+
+$dropdown-item-padding-x: 12px;
+$dropdown-item-padding-y: 4px;
 
 // Z-index
 $zindex-overlay: 900;
@@ -354,6 +402,7 @@ $popover-box-shadow: 0 6px 14px rgba(0, 0, 0, .1);
 $popover-body-color: $text-muted-dark;
 $popover-arrow-width: .5rem;
 $popover-arrow-height: .5rem;
+$popover-max-width: 400px;
 
 // Badges
 $badge-font-weight: 600;

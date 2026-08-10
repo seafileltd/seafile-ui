@@ -755,9 +755,9 @@ a {
   font-size: .9375rem;
   font-weight: 400;
   line-height: 1.6;
-  color: #495057;
+  color: var(--bs-body-color);
   vertical-align: middle;
-  border: 1px solid rgba(0, 40, 100, 0.12);
+  border: 1px solid var(--bs-border-color);
   border-radius: 3px;
   appearance: none;
 }
@@ -774,7 +774,7 @@ a {
 
 .form-check-input:checked {
   background-color: #2b76f6;
-  border-color: #1991eb;
+  border-color: #3e84f7;
 }
 
 .form-check-input:checked[type=checkbox] {
@@ -785,7 +785,7 @@ a {
 
 .form-check-input:focus,
 .form-select:focus {
-  box-shadow: 0 0 0 2px rgba(70, 127, 207, 0.25);
+  box-shadow: var(--bs-form-select-focus-box-shadow);
 }
 
 // button
