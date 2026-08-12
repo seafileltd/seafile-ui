@@ -1,4 +1,12 @@
 .modal {
   --#{$prefix}modal-color: #{$modal-content-color};
   --#{$prefix}modal-bg: #{$modal-content-bg};
+  --#{$prefix}modal-border-color: #{$border-secondary-color};
+  --#{$prefix}modal-header-border-color: #{$border-secondary-color};
+  --#{$prefix}modal-border-radius: 8px;
+  --#{$prefix}modal-box-shadow: 0 6px 14px rgba(0, 0, 0, .1);
+}
+
+.modal-content {
+  box-shadow: var(--#{$prefix}modal-box-shadow);
 }
