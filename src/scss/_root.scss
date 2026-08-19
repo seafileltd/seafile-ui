@@ -78,6 +78,7 @@
 
   --#{$prefix}bg-card: #{$bg-card};
   --#{$prefix}bg-card-elevated: #{$bg-card-elevated};
+  --#{$prefix}bg-card-elevated-hover: #{$bg-card-elevated-hover};
   --#{$prefix}bg-muted: #{$bg-muted};
 
   --#{$prefix}disabled-bg: #{$disabled-bg};
@@ -164,6 +165,7 @@
 
     --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg-dark};
     --#{$prefix}dropdown-divider-bg: #{$dropdown-divider-bg-dark};
+
     .dropdown-menu {
       --#{$prefix}dropdown-link-color: #{$dropdown-link-color-dark};
       --#{$prefix}dropdown-divider-bg: #{$dropdown-divider-bg-dark};
@@ -201,6 +203,7 @@
 
     --#{$prefix}bg-card: #{$bg-card-dark};
     --#{$prefix}bg-card-elevated: #{$bg-card-elevated-dark};
+    --#{$prefix}bg-card-elevated-hover: #{$bg-card-elevated-hover-dark};
     --#{$prefix}bg-muted: #{$bg-muted-dark};
 
     --#{$prefix}disabled-bg: #{$disabled-bg-dark};
