@@ -243,6 +243,7 @@
       --#{$prefix}btn-hover-color: #{$btn-secondary-hover-color-dark};
       --#{$prefix}btn-border-color: #{$btn-secondary-border-color-dark};
       --#{$prefix}btn-hover-border-color: #{$btn-secondary-hover-border-color-dark};
+      --#{$prefix}btn-disabled-bg: transparent;
     }
 
     .btn-outline-primary {
