@@ -80,6 +80,7 @@
   --#{$prefix}bg-card-elevated: #{$bg-card-elevated};
   --#{$prefix}bg-card-elevated-hover: #{$bg-card-elevated-hover};
   --#{$prefix}bg-muted: #{$bg-muted};
+  --#{$prefix}bg-file-card-color: #{$bg-file-card-color};
 
   --#{$prefix}disabled-bg: #{$disabled-bg};
   --#{$prefix}disabled-color: #{$disabled-color};
@@ -205,6 +206,7 @@
     --#{$prefix}bg-card-elevated: #{$bg-card-elevated-dark};
     --#{$prefix}bg-card-elevated-hover: #{$bg-card-elevated-hover-dark};
     --#{$prefix}bg-muted: #{$bg-muted-dark};
+    --#{$prefix}bg-file-card-color: #{$bg-file-card-color-dark};
 
     --#{$prefix}disabled-bg: #{$disabled-bg-dark};
     --#{$prefix}disabled-color: #{$disabled-color-dark};
