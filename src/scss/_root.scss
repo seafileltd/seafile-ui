@@ -242,6 +242,7 @@
     }
 
     .btn-secondary {
+      background-color: transparent;
       --#{$prefix}btn-color: #{$btn-secondary-color-dark};
       --#{$prefix}btn-bg: #{$btn-secondary-bg-dark};
       --#{$prefix}btn-hover-bg: #{$btn-secondary-hover-bg-dark};
