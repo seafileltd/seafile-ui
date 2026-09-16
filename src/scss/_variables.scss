@@ -74,7 +74,6 @@ $white: #fff;
 
 $sf-orange: #ed7109;
 $sf-orange-light: #FF8000;
-
 $sf-orange-active: #E16B09;
 
 // 666666 is used in most gray scenes, such as tip (contrast reaches 4.5)
@@ -99,7 +98,7 @@ $colors: (
 	"purple": $purple,
 	"pink": $pink,
 	"red": $red,
-	"orange": $orange,
+	"orange": $sf-orange,
 	"yellow": $yellow,
 	"lime": $lime,
 	"green": $green,
@@ -264,7 +263,7 @@ $border-quartus-color: #eaeaea;
 $calendar-border-color: $border-color;
 $calendar-disabled-bg: rgba(0, 0, 0, .05);
 $calendar-disabled-color: rgba(0, 0, 0, .2);
-$calendar-out-range-color: rgba(0, 0, 0, .2);
+$calendar-out-range-color: #C2C2C2;
 $calendar-time-section-border: $border-color;
 
 // Inputs
