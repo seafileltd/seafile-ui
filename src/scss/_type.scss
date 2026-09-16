@@ -4,15 +4,25 @@
 
 a {
 	text-decoration-skip: ink;
-	color: $sf-orange-text;
+	color: $sf-orange;
 
 	&:hover {
-		color: $sf-orange-text;
+		color: $sf-orange;
 	}
 }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
 	a {
 		color: inherit;
 	}
@@ -99,7 +109,13 @@ img {
 	}
 
 	> {
-		h1, h2, h3, h4, h5, h6 {
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
 			margin-top: 1em;
 		}
 	}

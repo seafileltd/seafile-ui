@@ -62,9 +62,7 @@ $indigo: #6574cd;
 $purple: #a55eea;
 $pink: #f66d9b;
 $red: #cd201f;
-$sf-orange-text: #ed7109;
-$sf-orange2: #FF8000;
-$sf-orange-active: #E16B09;
+$orange: #fd9644;
 $yellow: #f1c40f;
 $lime: #7bd235;
 $green: #5eba00;
@@ -74,13 +72,18 @@ $text-muted: #9aa0ac;
 $text-muted-dark: #6e7687;
 $white: #fff;
 
+$sf-orange: #ed7109;
+$sf-orange-light: #FF8000;
+
+$sf-orange-active: #E16B09;
+
 // 666666 is used in most gray scenes, such as tip (contrast reaches 4.5)
 $sf-grey-text: #666666;
 
 // 868E96 is used in search box/input box/selection box placeholder (contrast reaches 3)
 $sf-grey-text-placeholder: #868E96;
 
-$primary: $sf-orange2;
+$primary: $sf-orange-light;
 $secondary: $sf-grey-text;
 $success: $green;
 $info: $azure;
@@ -96,7 +99,7 @@ $colors: (
 	"purple": $purple,
 	"pink": $pink,
 	"red": $red,
-	"orange": $sf-orange-text,
+	"orange": $orange,
 	"yellow": $yellow,
 	"lime": $lime,
 	"green": $green,
