@@ -233,18 +233,18 @@ $yiq-text-dark: $body-color;
 $yiq-text-light: $white;
 
 // Buttons
-$btn-secondary-fill-color: #212529;
-$btn-secondary-fill-bg: #F5F5F5;
-$btn-secondary-fill-hover-bg: #EFEFEF;
-$btn-secondary-fill-active-bg: #DDDDDD;
-$btn-secondary-fill-border-color: transparent;
-$btn-secondary-fill-hover-border-color: transparent;
-$btn-secondary-fill-active-border-color: transparent;
-$btn-secondary-fill-hover-color: #212529;
-$btn-secondary-fill-active-color: #212529;
-$btn-secondary-fill-disabled-color: #212529;
-$btn-secondary-fill-disabled-border-color: transparent;
-$btn-secondary-fill-disabled-bg-color: #F5F5F5;
+$btn-secondary-filled-color: #212529;
+$btn-secondary-filled-bg: #F5F5F5;
+$btn-secondary-filled-hover-bg: #EFEFEF;
+$btn-secondary-filled-active-bg: #DDDDDD;
+$btn-secondary-filled-border-color: transparent;
+$btn-secondary-filled-hover-border-color: transparent;
+$btn-secondary-filled-active-border-color: transparent;
+$btn-secondary-filled-hover-color: #212529;
+$btn-secondary-filled-active-color: #212529;
+$btn-secondary-filled-disabled-color: #212529;
+$btn-secondary-filled-disabled-border-color: transparent;
+$btn-secondary-filled-disabled-bg-color: #F5F5F5;
 
 $input-line-height: math.div(24, 15);
 $btn-line-height: math.div(24, 13);
