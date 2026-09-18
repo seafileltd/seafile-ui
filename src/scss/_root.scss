@@ -109,6 +109,21 @@
   --#{$prefix}calendar-disabled-color: #{$calendar-disabled-color};
   --#{$prefix}calendar-out-range-color: #{$calendar-out-range-color};
   --#{$prefix}calendar-time-section-border: #{$calendar-time-section-border};
+
+  .btn-secondary-fill {
+    --#{$prefix}btn-color: #{$btn-secondary-fill-color};
+    --#{$prefix}btn-bg: #{$btn-secondary-fill-bg};
+    --#{$prefix}btn-hover-bg: #{$btn-secondary-fill-hover-bg};
+    --#{$prefix}btn-hover-color: #{$btn-secondary-fill-hover-color};
+    --#{$prefix}btn-border-color: #{$btn-secondary-fill-border-color};
+    --#{$prefix}btn-hover-border-color: #{$btn-secondary-fill-hover-border-color};
+    --#{$prefix}btn-active-bg: #{$btn-secondary-fill-active-bg};
+    --#{$prefix}btn-active-color: #{$btn-secondary-fill-active-color};
+    --#{$prefix}btn-active-border-color: #{$btn-secondary-fill-active-border-color};
+    --#{$prefix}btn-disabled-border-color: #{$btn-secondary-fill-disabled-border-color};
+    --#{$prefix}btn-disabled-bg: #{$btn-secondary-fill-disabled-bg-color};
+    --#{$prefix}btn-disabled-color: #{$btn-secondary-fill-disabled-color};
+  }
 }
 
 @if $enable-dark-mode {
@@ -249,7 +264,6 @@
       --#{$prefix}btn-border-color: #{$btn-secondary-border-color-dark};
       --#{$prefix}btn-hover-border-color: #{$btn-secondary-hover-border-color-dark};
     }
-
     .btn-outline-primary {
       --#{$prefix}btn-bg: #{$btn-outline-primary-bg-dark};
     }
@@ -259,6 +273,21 @@
       background-color: var(--#{$prefix}btn-hover-bg);
       border-color: var(--#{$prefix}btn-hover-border-color);
       color: var(--#{$prefix}btn-hover-color);
+    }
+
+    .btn-secondary-fill {
+      --#{$prefix}btn-color: #{$btn-secondary-fill-color-dark};
+      --#{$prefix}btn-bg: #{$btn-secondary-fill-bg-dark};
+      --#{$prefix}btn-hover-bg: #{$btn-secondary-fill-hover-bg-dark};
+      --#{$prefix}btn-hover-color: #{$btn-secondary-fill-hover-color-dark};
+      --#{$prefix}btn-border-color: #{$btn-secondary-fill-border-color-dark};
+      --#{$prefix}btn-hover-border-color: #{$btn-secondary-fill-hover-border-color-dark};
+      --#{$prefix}btn-active-bg: #{$btn-secondary-fill-active-bg-dark};
+      --#{$prefix}btn-active-color: #{$btn-secondary-fill-active-color-dark};
+      --#{$prefix}btn-active-border-color: #{$btn-secondary-fill-active-border-color-dark};
+      --#{$prefix}btn-disabled-border-color: #{$btn-secondary-fill-disabled-border-color-dark};
+      --#{$prefix}btn-disabled-bg: #{$btn-secondary-fill-disabled-bg-dark};
+      --#{$prefix}btn-disabled-color: #{$btn-secondary-fill-disabled-color-dark};
     }
   }
 }
