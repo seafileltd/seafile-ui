@@ -11,18 +11,11 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use('/dist', express.static(path.join(__dirname, '../dist')));
 
 const routes = [
-  '/',
-  '/index.html',
-  '/button.html',
-  '/form.html',
-  '/wikis.html',
-  '/article.html',
-  '/loading.html',
-  '/table.html',
   '/alert.html',
+  '/article.html',
+  '/aside.html',
   '/avatar.html',
   '/badge.html',
-  '/button.html',
   '/breadcrumb.html',
   '/button.html',
   '/cards.html',
@@ -35,42 +28,45 @@ const routes = [
   '/example.html',
   '/footer.html',
   '/form.html',
-  '/forms.html',
-  '/functions.html',
   '/grid.html',
   '/header.html',
   '/icon.html',
   '/image.html',
   '/layout.html',
   '/link.html',
-  '/list.html',
   '/list-group.html',
+  '/list.html',
   '/loading.html',
   '/maps.html',
   '/media.html',
   '/nav.html',
   '/pagination.html',
   '/popover.html',
-  '/progress.html',
   '/product.html',
+  '/progress.html',
   '/social.html',
   '/sparkline.html',
   '/stamp.html',
   '/statuses.html',
   '/syntax.html',
   '/table.html',
-  '/tag.html',
   '/tables.html',
+  '/tag.html',
+  '/text.html',
   '/timeline.html',
   '/type.html',
   '/utilities.html',
   '/variables.html',
-  '/aside.html',
+  '/wikis.html',
 ];
+
+app.get('/', (req, res) => {
+  return res.redirect('/alert.html');
+});
 
 routes.forEach(route => {
   app.get(route, (req, res) => {
-    const title = route === '/' ? 'Seafile UI' : route.replace('.html', '').replace(/\//g, '');
+    const title = route.replace('.html', '').replace(/\//g, '');
     return res.render('index', {title});
   });
 });

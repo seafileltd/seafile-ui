@@ -1,172 +1,206 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 <%- include('./templates/header.html') %>
-<body>
+<body class="demo-page">
+  <header class="demo-header" role="banner">
+    <div class="demo-header__brand">Seafile Custom CSS</div>
+    <button
+      type="button"
+      class="btn btn-outline-secondary btn-sm demo-header__theme-toggle"
+      id="theme-toggle"
+      aria-pressed="false"
+    >
+      Dark mode
+    </button>
+  </header>
   <div class="ui-main container-fluid h-100">
     <div class="row h-100">
-      <div class="ui-nav col-2" style="height: 100%; overflow-y: auto;">
+      <div class="ui-nav col-2 p-2" style="height: 100%; overflow-y: auto; border-right: 1px solid var(--bs-border-color);">
         <%- include('./templates/nav.html') %>
       </div>
-      <div id="content" class="ui-content col-10 h-100">
-        <% if (title === 'Seafile UI') { %>
-          <%- include('index.html') %>
-        <% } %>
-        <% if (title === 'home') { %>
-          <%- include('index.html') %>
-        <% } %>
-        <% if (title === 'button') { %>
-          <%- include('button.html') %>
-        <% } %>
-        <% if (title === 'form') { %>
-          <%- include('form.html') %>
-        <% } %>
-        <% if (title === 'wikis') { %>
-          <%- include('wikis.html') %>
-        <% } %>
-        <% if (title === 'article') { %>
-          <%- include('article.html') %>
-        <% } %>
-        <% if (title === 'loading') { %>
-          <%- include('loading.html') %>
-        <% } %>
-        <% if (title === 'table') { %>
-          <%- include('table.html') %>
-        <% } %>
+      <div id="content" class="ui-content col-10 h-100 p-2">
         <% if (title === 'alert') { %>
           <%- include('alert.html') %>
         <% } %>
-        <% if (title === 'chips') { %>
-          <%- include('chips.html') %>
-        <% } %>
-        <% if (title === 'icon') { %>
-          <%- include('icon.html') %>
-        <% } %>
-        <% if (title === 'pagination') { %>
-          <%- include('pagination.html') %>
-        <% } %>
         <% if (title === 'article') { %>
           <%- include('article.html') %>
-        <% } %>
-        <% if (title === 'image') { %>
-          <%- include('image.html') %>
-        <% } %>
-        <% if (title === 'popover') { %>
-          <%- include('popover.html') %>
-        <% } %>
-        <% if (title === 'timeline') { %>
-          <%- include('timeline.html') %>
         <% } %>
         <% if (title === 'aside') { %>
           <%- include('aside.html') %>
         <% } %>
-        <% if (title === 'product') { %>
-          <%- include('product.html') %>
-        <% } %>
-        <% if (title === 'type') { %>
-          <%- include('type.html') %>
-        <% } %>
         <% if (title === 'avatar') { %>
           <%- include('avatar.html') %>
-        <% } %>
-        <% if (title === 'core') { %>
-          <%- include('core.html') %>
-        <% } %>
-        <% if (title === 'layout') { %>
-          <%- include('layout.html') %>
-        <% } %>
-        <% if (title === 'progress') { %>
-          <%- include('progress.html') %>
-        <% } %>
-        <% if (title === 'utilities') { %>
-          <%- include('utilities.html') %>
         <% } %>
         <% if (title === 'badge') { %>
           <%- include('badge.html') %>
         <% } %>
-        <% if (title === 'dropdown') { %>
-          <%- include('dropdown.html') %>
-        <% } %>
-        <% if (title === 'link') { %>
-          <%- include('link.html') %>
-        <% } %>
-        <% if (title === 'social') { %>
-          <%- include('social.html') %>
-        <% } %>
-        <% if (title === 'variables') { %>
-          <%- include('variables.html') %>
-        <% } %>
         <% if (title === 'breadcrumb') { %>
           <%- include('breadcrumb.html') %>
-        <% } %>
-        <% if (title === 'example') { %>
-          <%- include('example.html') %>
-        <% } %>
-        <% if (title === 'list-group') { %>
-          <%- include('list-group.html') %>
-        <% } %>
-        <% if (title === 'sparkline') { %>
-          <%- include('sparkline.html') %>
-        <% } %>
-        <% if (title === 'forms') { %>
-          <%- include('forms.html') %>
         <% } %>
         <% if (title === 'button') { %>
           <%- include('button.html') %>
         <% } %>
-        <% if (title === 'footer') { %>
-          <%- include('footer.html') %>
-        <% } %>
-        <% if (title === 'list') { %>
-          <%- include('list.html') %>
-        <% } %>
-        <% if (title === 'stamp') { %>
-          <%- include('stamp.html') %>
-        <% } %>
-        <% if (title === 'index') { %>
-          <%- include('index.html') %>
-        <% } %>
         <% if (title === 'cards') { %>
           <%- include('cards.html') %>
-        <% } %>
-        <% if (title === 'form') { %>
-          <%- include('form.html') %>
-        <% } %>
-        <% if (title === 'loading') { %>
-          <%- include('loading.html') %>
-        <% } %>
-        <% if (title === 'statuses') { %>
-          <%- include('statuses.html') %>
-        <% } %>
-        <% if (title === 'article') { %>
-          <%- include('article.html') %>
         <% } %>
         <% if (title === 'carousel') { %>
           <%- include('carousel.html') %>
         <% } %>
-        <% if (title === 'functions') { %>
-          <%- include('functions.html') %>
-        <% } %>
-        <% if (title === 'maps') { %>
-          <%- include('maps.html') %>
-        <% } %>
-        <% if (title === 'syntax') { %>
-          <%- include('syntax.html') %>
+        <% if (title === 'charts') { %>
+          <%- include('charts.html') %>
         <% } %>
         <% if (title === 'chat') { %>
           <%- include('chat.html') %>
         <% } %>
+        <% if (title === 'chips') { %>
+          <%- include('chips.html') %>
+        <% } %>
+        <% if (title === 'core') { %>
+          <%- include('core.html') %>
+        <% } %>
+        <% if (title === 'dropdown') { %>
+          <%- include('dropdown.html') %>
+        <% } %>
+        <% if (title === 'example') { %>
+          <%- include('example.html') %>
+        <% } %>
+        <% if (title === 'footer') { %>
+          <%- include('footer.html') %>
+        <% } %>
+        <% if (title === 'form') { %>
+          <%- include('form.html') %>
+        <% } %>
+        <% if (title === 'grid') { %>
+          <%- include('grid.html') %>
+        <% } %>
         <% if (title === 'header') { %>
           <%- include('header.html') %>
+        <% } %>
+        <% if (title === 'icon') { %>
+          <%- include('icon.html') %>
+        <% } %>
+        <% if (title === 'image') { %>
+          <%- include('image.html') %>
+        <% } %>
+        <% if (title === 'layout') { %>
+          <%- include('layout.html') %>
+        <% } %>
+        <% if (title === 'link') { %>
+          <%- include('link.html') %>
+        <% } %>
+        <% if (title === 'list-group') { %>
+          <%- include('list-group.html') %>
+        <% } %>
+        <% if (title === 'list') { %>
+          <%- include('list.html') %>
+        <% } %>
+        <% if (title === 'loading') { %>
+          <%- include('loading.html') %>
+        <% } %>
+        <% if (title === 'maps') { %>
+          <%- include('maps.html') %>
+        <% } %>
+        <% if (title === 'media') { %>
+          <%- include('media.html') %>
         <% } %>
         <% if (title === 'nav') { %>
           <%- include('nav.html') %>
         <% } %>
+        <% if (title === 'pagination') { %>
+          <%- include('pagination.html') %>
+        <% } %>
+        <% if (title === 'popover') { %>
+          <%- include('popover.html') %>
+        <% } %>
+        <% if (title === 'product') { %>
+          <%- include('product.html') %>
+        <% } %>
+        <% if (title === 'progress') { %>
+          <%- include('progress.html') %>
+        <% } %>
+        <% if (title === 'social') { %>
+          <%- include('social.html') %>
+        <% } %>
+        <% if (title === 'sparkline') { %>
+          <%- include('sparkline.html') %>
+        <% } %>
+        <% if (title === 'stamp') { %>
+          <%- include('stamp.html') %>
+        <% } %>
+        <% if (title === 'statuses') { %>
+          <%- include('statuses.html') %>
+        <% } %>
+        <% if (title === 'syntax') { %>
+          <%- include('syntax.html') %>
+        <% } %>
+        <% if (title === 'table') { %>
+          <%- include('table.html') %>
+        <% } %>
+        <% if (title === 'tables') { %>
+          <%- include('tables.html') %>
+        <% } %>
         <% if (title === 'tag') { %>
           <%- include('tag.html') %>
+        <% } %>
+        <% if (title === 'text') { %>
+          <%- include('text.html') %>
+        <% } %>
+        <% if (title === 'timeline') { %>
+          <%- include('timeline.html') %>
+        <% } %>
+        <% if (title === 'type') { %>
+          <%- include('type.html') %>
+        <% } %>
+        <% if (title === 'utilities') { %>
+          <%- include('utilities.html') %>
+        <% } %>
+        <% if (title === 'variables') { %>
+          <%- include('variables.html') %>
+        <% } %>
+        <% if (title === 'wikis') { %>
+          <%- include('wikis.html') %>
         <% } %>
       </div>
     </div>
   </div>
   <script src="/dist/seafile-ui.js"></script>
+  <script>
+    (() => {
+      const root = document.documentElement;
+      const toggle = document.getElementById('theme-toggle');
+      const storageKey = 'seafile-ui-theme';
+
+      const getStoredTheme = () => {
+        try {
+          return window.localStorage.getItem(storageKey);
+        } catch (error) {
+          return null;
+        }
+      };
+
+      const storeTheme = theme => {
+        try {
+          window.localStorage.setItem(storageKey, theme);
+        } catch (error) {
+          // Ignore storage errors and keep the theme for this page only.
+        }
+      };
+
+      const applyTheme = theme => {
+        const isDark = theme === 'dark';
+        root.setAttribute('data-bs-theme', isDark ? 'dark' : 'light');
+        toggle.textContent = isDark ? 'Light mode' : 'Dark mode';
+        toggle.setAttribute('aria-pressed', String(isDark));
+        toggle.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+      };
+
+      applyTheme(getStoredTheme() === 'dark' ? 'dark' : 'light');
+      toggle.addEventListener('click', () => {
+        const nextTheme = root.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+        applyTheme(nextTheme);
+        storeTheme(nextTheme);
+      });
+    })();
+  </script>
 </body>
 </html>
