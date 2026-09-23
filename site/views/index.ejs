@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 <%- include('./templates/header.html') %>
-<body>
+<body class="demo-page">
+  <header class="demo-header" role="banner">
+    <div class="demo-header__brand">Seafile Custom CSS</div>
+    <button
+      type="button"
+      class="btn btn-outline-secondary btn-sm demo-header__theme-toggle"
+      id="theme-toggle"
+      aria-pressed="false"
+    >
+      Dark mode
+    </button>
+  </header>
   <div class="ui-main container-fluid h-100">
     <div class="row h-100">
-      <div class="ui-nav col-2" style="height: 100%; overflow-y: auto;">
+      <div class="ui-nav col-2 p-2" style="height: 100%; overflow-y: auto; border-right: 1px solid var(--bs-border-color);">
         <%- include('./templates/nav.html') %>
       </div>
-      <div id="content" class="ui-content col-10 h-100">
-        <% if (title === 'Seafile UI') { %>
-          <%- include('index.html') %>
-        <% } %>
+      <div id="content" class="ui-content col-10 h-100 p-2">
         <% if (title === 'alert') { %>
           <%- include('alert.html') %>
         <% } %>
@@ -156,5 +164,43 @@
     </div>
   </div>
   <script src="/dist/seafile-ui.js"></script>
+  <script>
+    (() => {
+      const root = document.documentElement;
+      const toggle = document.getElementById('theme-toggle');
+      const storageKey = 'seafile-ui-theme';
+
+      const getStoredTheme = () => {
+        try {
+          return window.localStorage.getItem(storageKey);
+        } catch (error) {
+          return null;
+        }
+      };
+
+      const storeTheme = theme => {
+        try {
+          window.localStorage.setItem(storageKey, theme);
+        } catch (error) {
+          // Ignore storage errors and keep the theme for this page only.
+        }
+      };
+
+      const applyTheme = theme => {
+        const isDark = theme === 'dark';
+        root.setAttribute('data-bs-theme', isDark ? 'dark' : 'light');
+        toggle.textContent = isDark ? 'Light mode' : 'Dark mode';
+        toggle.setAttribute('aria-pressed', String(isDark));
+        toggle.setAttribute('aria-label', isDark ? 'Switch to light theme' : 'Switch to dark theme');
+      };
+
+      applyTheme(getStoredTheme() === 'dark' ? 'dark' : 'light');
+      toggle.addEventListener('click', () => {
+        const nextTheme = root.getAttribute('data-bs-theme') === 'dark' ? 'light' : 'dark';
+        applyTheme(nextTheme);
+        storeTheme(nextTheme);
+      });
+    })();
+  </script>
 </body>
 </html>

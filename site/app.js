@@ -11,7 +11,6 @@ app.use('/public', express.static(path.join(__dirname, 'public')));
 app.use('/dist', express.static(path.join(__dirname, '../dist')));
 
 const routes = [
-  '/',
   '/alert.html',
   '/article.html',
   '/aside.html',
@@ -61,9 +60,13 @@ const routes = [
   '/wikis.html',
 ];
 
+app.get('/', (req, res) => {
+  return res.redirect('/alert.html');
+});
+
 routes.forEach(route => {
   app.get(route, (req, res) => {
-    const title = route === '/' ? 'Seafile UI' : route.replace('.html', '').replace(/\//g, '');
+    const title = route.replace('.html', '').replace(/\//g, '');
     return res.render('index', {title});
   });
 });
