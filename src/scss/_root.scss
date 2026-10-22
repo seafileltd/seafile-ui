@@ -47,6 +47,12 @@
   --#{$prefix}bg-color: #{$bg-color};
   --#{$prefix}bg-secondary-color: #{$bg-secondary-color};
 
+  // Public menu tokens also support custom menus without .dropdown-menu.
+  --#{$prefix}dropdown-bg: #{$dropdown-bg};
+  --#{$prefix}dropdown-link-color: #{$dropdown-link-color};
+  --#{$prefix}dropdown-border-color: #{$dropdown-border-color};
+  --#{$prefix}dropdown-divider-bg: #{$dropdown-divider-bg};
+  --#{$prefix}dropdown-box-shadow: #{$dropdown-box-shadow};
   --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg};
   --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg};
   --#{$prefix}dropdown-link-hover-tertiary-bg: #{$dropdown-link-hover-tertiary-bg};
@@ -90,6 +96,14 @@
   --#{$prefix}thumbnail-bg-color: #{$thumbnail-bg-color};
 
   --#{$prefix}bg-code: #{$bg-code};
+  --#{$prefix}editor-default-text-color: #{$editor-default-text-color};
+  --#{$prefix}code-comment-color: #{$code-comment-color};
+  --#{$prefix}code-value-color: #{$code-value-color};
+  --#{$prefix}code-string-color: #{$code-string-color};
+  --#{$prefix}code-operator-color: #{$code-operator-color};
+  --#{$prefix}code-keyword-color: #{$code-keyword-color};
+  --#{$prefix}code-function-color: #{$code-function-color};
+  --#{$prefix}code-variable-color: #{$code-variable-color};
   --#{$prefix}bg-disabled-secondary: #{$bg-disabled-secondary};
   --#{$prefix}bg-overlay: #{$bg-overlay};
   --#{$prefix}bg-surface-dimmed: #{$bg-surface-dimmed};
@@ -180,6 +194,10 @@
     --#{$prefix}bg-color: #{$bg-color-dark};
     --#{$prefix}bg-secondary-color: #{$bg-secondary-color-dark};
 
+    --#{$prefix}dropdown-bg: #{$dropdown-bg-dark};
+    --#{$prefix}dropdown-link-color: #{$dropdown-link-color-dark};
+    --#{$prefix}dropdown-border-color: #{$dropdown-border-color-dark};
+    --#{$prefix}dropdown-box-shadow: #{$dropdown-box-shadow-dark};
     --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg-dark};
     --#{$prefix}dropdown-divider-bg: #{$dropdown-divider-bg-dark};
 
@@ -232,6 +250,14 @@
     --#{$prefix}thumbnail-bg-color: #{$thumbnail-bg-color-dark};
 
     --#{$prefix}bg-code: #{$bg-code-dark};
+    --#{$prefix}editor-default-text-color: #{$editor-default-text-color-dark};
+    --#{$prefix}code-comment-color: #{$code-comment-color-dark};
+    --#{$prefix}code-value-color: #{$code-value-color-dark};
+    --#{$prefix}code-string-color: #{$code-string-color-dark};
+    --#{$prefix}code-operator-color: #{$code-operator-color-dark};
+    --#{$prefix}code-keyword-color: #{$code-keyword-color-dark};
+    --#{$prefix}code-function-color: #{$code-function-color-dark};
+    --#{$prefix}code-variable-color: #{$code-variable-color-dark};
     --#{$prefix}bg-disabled-secondary: #{$bg-disabled-secondary-dark};
     --#{$prefix}bg-overlay: #{$bg-overlay-dark};
     --#{$prefix}bg-surface-dimmed: #{$bg-surface-dimmed-dark};
