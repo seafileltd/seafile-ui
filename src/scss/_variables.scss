@@ -209,6 +209,16 @@ $thumbnail-bg-color: transparent;
 // Code block background
 $bg-code: #f5f7fa;
 
+// Shared document rendering colors, independent of editor implementation.
+$document-text-color: #333333;
+$code-comment-color: slategray;
+$code-value-color: #905;
+$code-string-color: #690;
+$code-operator-color: #9a6e3a;
+$code-keyword-color: #07a;
+$code-function-color: #dd4a68;
+$code-variable-color: #e90;
+
 // Disabled states (secondary)
 $bg-disabled-secondary: #dbdbdb;
 
