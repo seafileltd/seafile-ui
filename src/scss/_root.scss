@@ -51,7 +51,6 @@
   --#{$prefix}dropdown-bg: #{$dropdown-bg};
   --#{$prefix}dropdown-link-color: #{$dropdown-link-color};
   --#{$prefix}dropdown-border-color: #{$dropdown-border-color};
-  --#{$prefix}dropdown-divider-bg: #{$dropdown-divider-bg};
   --#{$prefix}dropdown-box-shadow: #{$dropdown-box-shadow};
   --#{$prefix}dropdown-link-hover-bg: #{$dropdown-link-hover-bg};
   --#{$prefix}dropdown-link-hover-secondary-bg: #{$dropdown-link-hover-secondary-bg};
@@ -96,7 +95,7 @@
   --#{$prefix}thumbnail-bg-color: #{$thumbnail-bg-color};
 
   --#{$prefix}bg-code: #{$bg-code};
-  --#{$prefix}editor-default-text-color: #{$editor-default-text-color};
+  --#{$prefix}document-text-color: #{$document-text-color};
   --#{$prefix}code-comment-color: #{$code-comment-color};
   --#{$prefix}code-value-color: #{$code-value-color};
   --#{$prefix}code-string-color: #{$code-string-color};
@@ -250,7 +249,7 @@
     --#{$prefix}thumbnail-bg-color: #{$thumbnail-bg-color-dark};
 
     --#{$prefix}bg-code: #{$bg-code-dark};
-    --#{$prefix}editor-default-text-color: #{$editor-default-text-color-dark};
+    --#{$prefix}document-text-color: #{$document-text-color-dark};
     --#{$prefix}code-comment-color: #{$code-comment-color-dark};
     --#{$prefix}code-value-color: #{$code-value-color-dark};
     --#{$prefix}code-string-color: #{$code-string-color-dark};
